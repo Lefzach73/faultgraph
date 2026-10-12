@@ -1,0 +1,3683 @@
+[
+  {
+    "file": "Aarnet.graphml",
+    "provider": "aarnet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PREVIOUS_OR_SELECTED_PROVIDER"
+    ],
+    "source_vertices": 19,
+    "core_vertices": 15,
+    "physical_edges": 20,
+    "logical_edges": 20,
+    "source_sha256": "4f368b8eda8a4c4aac7de5d950c8cb4b67ae5d955928b145bc6f7ce829408fae"
+  },
+  {
+    "file": "Abilene.graphml",
+    "provider": "abilene",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PREVIOUS_OR_SELECTED_PROVIDER"
+    ],
+    "source_vertices": 11,
+    "core_vertices": 11,
+    "physical_edges": 14,
+    "logical_edges": 14,
+    "source_sha256": "8cd694280d98b336bb9b51fc3b2129a514f1b1b1ac80f2022aca02a57ef1e371"
+  },
+  {
+    "file": "Abvt.graphml",
+    "provider": "abovenet",
+    "status": "SELECTED",
+    "reasons": [],
+    "source_vertices": 23,
+    "core_vertices": 22,
+    "physical_edges": 30,
+    "logical_edges": 30,
+    "source_sha256": "a16ff16277bb03fd0d5eed364d466a8ddb947adeb8f170e28bb98fee016c3219"
+  },
+  {
+    "file": "Aconet.graphml",
+    "provider": "aconet",
+    "status": "SELECTED",
+    "reasons": [],
+    "source_vertices": 23,
+    "core_vertices": 18,
+    "physical_edges": 26,
+    "logical_edges": 26,
+    "source_sha256": "5128ba117f92f6a53aa1785d6428174b43bdd37955d3f62484dc02fe77caa610"
+  },
+  {
+    "file": "Agis.graphml",
+    "provider": "agis",
+    "status": "SELECTED",
+    "reasons": [],
+    "source_vertices": 25,
+    "core_vertices": 16,
+    "physical_edges": 21,
+    "logical_edges": 21,
+    "source_sha256": "4c07014b72a5dc881b14b752c1917affb22e5556ef79e2c5fbfb210d964801dc"
+  },
+  {
+    "file": "Ai3.graphml",
+    "provider": "ai3",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 10,
+    "core_vertices": 2,
+    "physical_edges": 1,
+    "logical_edges": 1,
+    "source_sha256": "90f7de8599c5946bfcaf39ece3f55dea69b0cb749e9568574776a2b6d79a6761"
+  },
+  {
+    "file": "Airtel.graphml",
+    "provider": "airtel",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND"
+    ],
+    "source_vertices": 16,
+    "core_vertices": 8,
+    "physical_edges": 29,
+    "logical_edges": 18,
+    "source_sha256": "99e0fbdabeaff9019a66f0952e1c4d81de85818d9310b0ac425f5bae1d32a6ee"
+  },
+  {
+    "file": "Amres.graphml",
+    "provider": "amres",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 25,
+    "core_vertices": 2,
+    "physical_edges": 1,
+    "logical_edges": 1,
+    "source_sha256": "ee9cf58ec40ce2966b2df071e0ee039767e4933f5e50ab4dd2208b822acaadd9"
+  },
+  {
+    "file": "Ans.graphml",
+    "provider": "ans",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PREVIOUS_OR_SELECTED_PROVIDER"
+    ],
+    "source_vertices": 18,
+    "core_vertices": 17,
+    "physical_edges": 24,
+    "logical_edges": 24,
+    "source_sha256": "1dd6681adc569bbe2aab6be41fb1deded1f7065ea6691c0d7aaab111913fd06c"
+  },
+  {
+    "file": "Arn.graphml",
+    "provider": "arn",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 30,
+    "core_vertices": 2,
+    "physical_edges": 1,
+    "logical_edges": 1,
+    "source_sha256": "5dcb91f5019f0d4064a4e8b71f37ae0bbfea3f4564a6017d23a4ebc7be53603d"
+  },
+  {
+    "file": "Arnes.graphml",
+    "provider": "arnes",
+    "status": "SELECTED",
+    "reasons": [],
+    "source_vertices": 34,
+    "core_vertices": 20,
+    "physical_edges": 27,
+    "logical_edges": 27,
+    "source_sha256": "e28855e3a99aab974dc1191e948ce647d83c4c5fc84fd10655f39d3fb8aac7aa"
+  },
+  {
+    "file": "Arpanet196912.graphml",
+    "provider": "arpanet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PREVIOUS_OR_SELECTED_PROVIDER",
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 4,
+    "core_vertices": 3,
+    "physical_edges": 3,
+    "logical_edges": 3,
+    "source_sha256": "9d873669fac73c7bf9fd85de9a3c68ecd02116e59ca7794185bc179d6c76fca0"
+  },
+  {
+    "file": "Arpanet19706.graphml",
+    "provider": "arpanet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PREVIOUS_OR_SELECTED_PROVIDER",
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 9,
+    "core_vertices": 5,
+    "physical_edges": 5,
+    "logical_edges": 5,
+    "source_sha256": "396399fe3ceb65de52369e11e15f615449daa4b5639bf97776574be867af6268"
+  },
+  {
+    "file": "Arpanet19719.graphml",
+    "provider": "arpanet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PREVIOUS_OR_SELECTED_PROVIDER"
+    ],
+    "source_vertices": 18,
+    "core_vertices": 18,
+    "physical_edges": 22,
+    "logical_edges": 22,
+    "source_sha256": "23e0d9f206ff6e3c3315d4fae25cf6268ded9b6d066f22594574154f10e9e6ca"
+  },
+  {
+    "file": "Arpanet19723.graphml",
+    "provider": "arpanet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PREVIOUS_OR_SELECTED_PROVIDER"
+    ],
+    "source_vertices": 25,
+    "core_vertices": 24,
+    "physical_edges": 27,
+    "logical_edges": 27,
+    "source_sha256": "8defd4bc9f693476e643dda30fefd0a73a49fb5ca04b5354af34493f3739d5e3"
+  },
+  {
+    "file": "Arpanet19728.graphml",
+    "provider": "arpanet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PREVIOUS_OR_SELECTED_PROVIDER",
+      "CORE_VERTEX_BOUND"
+    ],
+    "source_vertices": 29,
+    "core_vertices": 29,
+    "physical_edges": 32,
+    "logical_edges": 32,
+    "source_sha256": "c71ac144b7ef9022e6786de9c46eb1fe8dd7d46447dd590286e2b8accaf1ef8e"
+  },
+  {
+    "file": "AsnetAm.graphml",
+    "provider": "asnet-am",
+    "status": "SELECTED",
+    "reasons": [],
+    "source_vertices": 65,
+    "core_vertices": 18,
+    "physical_edges": 26,
+    "logical_edges": 26,
+    "source_sha256": "5e4192afcc1b0d62c64607aca279bd613ab9e028e05261e3476c545a94c18c3a"
+  },
+  {
+    "file": "Atmnet.graphml",
+    "provider": "atmnet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PREVIOUS_OR_SELECTED_PROVIDER"
+    ],
+    "source_vertices": 21,
+    "core_vertices": 19,
+    "physical_edges": 20,
+    "logical_edges": 20,
+    "source_sha256": "34dd14da259265934c8d09f437e68cbea2ec637906dcfb390ee5f3d0d419ccf2"
+  },
+  {
+    "file": "AttMpls.graphml",
+    "provider": "att north america",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 25,
+    "core_vertices": 25,
+    "physical_edges": 57,
+    "logical_edges": 56,
+    "source_sha256": "c32c3aeb985ee1cf197e016c02bd7b9a271c5d951598733ad3ddc0c5ed63e394"
+  },
+  {
+    "file": "Azrena.graphml",
+    "provider": "azrena",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 22,
+    "core_vertices": 2,
+    "physical_edges": 1,
+    "logical_edges": 1,
+    "source_sha256": "f0e5989a04c2ca4fad8bf13f906b7b52da5274b555c39b8ee81ad34687cfd593"
+  },
+  {
+    "file": "BackboneSerbiaMontenegro.graphml",
+    "provider": "telecomserbia",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 6,
+    "core_vertices": 6,
+    "physical_edges": 6,
+    "logical_edges": 6,
+    "source_sha256": "650685b724bb342295da51d9d4332670797c06005b5c8d1f9d8866df517ca6ae"
+  },
+  {
+    "file": "Bandcon.graphml",
+    "provider": "bandcon",
+    "status": "SELECTED",
+    "reasons": [],
+    "source_vertices": 22,
+    "core_vertices": 20,
+    "physical_edges": 27,
+    "logical_edges": 27,
+    "source_sha256": "9ce49ff0f4f2e70ee816420dc3ce00390c1df7fe21a73b00662ed3fb37b2ba6d"
+  },
+  {
+    "file": "Basnet.graphml",
+    "provider": "basnet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 7,
+    "core_vertices": 2,
+    "physical_edges": 1,
+    "logical_edges": 1,
+    "source_sha256": "b3f2e0de94cb5ab1532e192e9f949c0441f62504a532730605400c8c79ca5749"
+  },
+  {
+    "file": "Bbnplanet.graphml",
+    "provider": "bbnplanet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 27,
+    "core_vertices": 10,
+    "physical_edges": 11,
+    "logical_edges": 11,
+    "source_sha256": "6796a8cdfecd877c5859de8117785121aa9e3624a640c20fad0cc9d53ad98f0a"
+  },
+  {
+    "file": "Bellcanada.graphml",
+    "provider": "bell canada",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 48,
+    "core_vertices": 30,
+    "physical_edges": 41,
+    "logical_edges": 41,
+    "source_sha256": "483bca149f53d469b9cffa03231337ea1584c607e19d74021477ac809db31c2b"
+  },
+  {
+    "file": "Bellsouth.graphml",
+    "provider": "bell south",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 51,
+    "core_vertices": 21,
+    "physical_edges": 36,
+    "logical_edges": 36,
+    "source_sha256": "dab3e1be5b369701b0552e971a390c9ca1685602138db741b7b590c6ffc2e803"
+  },
+  {
+    "file": "Belnet.graphml",
+    "provider": "belnet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 22,
+    "core_vertices": 22,
+    "physical_edges": 33,
+    "logical_edges": 26,
+    "source_sha256": "e883a3aa5e1ee88e24cd87c7cd7a6fc58b1a8001cc5cdf26397e21722cfe142b"
+  },
+  {
+    "file": "Belnet2003.graphml",
+    "provider": "belnet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 23,
+    "core_vertices": 18,
+    "physical_edges": 37,
+    "logical_edges": 34,
+    "source_sha256": "e45ea1668ddd224bf89258eadcda4dc2eb99d29fef21b3242605edfe9ab5eeb1"
+  },
+  {
+    "file": "Belnet2004.graphml",
+    "provider": "belnet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 23,
+    "core_vertices": 18,
+    "physical_edges": 37,
+    "logical_edges": 34,
+    "source_sha256": "0426e2794df6849c86ee58e1b41d7f1724f35aec9ffb637892839ae3933e2c04"
+  },
+  {
+    "file": "Belnet2005.graphml",
+    "provider": "belnet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 23,
+    "core_vertices": 20,
+    "physical_edges": 41,
+    "logical_edges": 38,
+    "source_sha256": "edfa235e55d22aa4f0ff4451775fc781d07e61159bcf0c183a99b4ea1ca67253"
+  },
+  {
+    "file": "Belnet2006.graphml",
+    "provider": "belnet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 23,
+    "core_vertices": 20,
+    "physical_edges": 41,
+    "logical_edges": 38,
+    "source_sha256": "6215a3dc39533d97f4f879ca9ec5cb3ab6fc3d2a31977ce31e156e5fb7df94a2"
+  },
+  {
+    "file": "Belnet2007.graphml",
+    "provider": "belnet",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 21,
+    "core_vertices": 21,
+    "physical_edges": 31,
+    "logical_edges": 24,
+    "source_sha256": "9d287eabef6c7d947b3b181cc5a82c8ef4f6be1e6a0efc9028708d81cd77f166"
+  },
+  {
+    "file": "Belnet2008.graphml",
+    "provider": "belnet",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 21,
+    "core_vertices": 21,
+    "physical_edges": 31,
+    "logical_edges": 24,
+    "source_sha256": "feff8280823915ed370de835c01ff93cc000a0cdc8549f059832ae52fb19aec3"
+  },
+  {
+    "file": "Belnet2009.graphml",
+    "provider": "belnet",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 21,
+    "core_vertices": 21,
+    "physical_edges": 31,
+    "logical_edges": 24,
+    "source_sha256": "8c1996bde69195f81017cb50626325ea63b6d095e4e9c62a9151aa829e16c6a2"
+  },
+  {
+    "file": "Belnet2010.graphml",
+    "provider": "belnet",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 22,
+    "core_vertices": 22,
+    "physical_edges": 32,
+    "logical_edges": 25,
+    "source_sha256": "16e102bd850ec68ec4c001d9f3215c0d3578ca164a7ea793f415e47a7d8962fb"
+  },
+  {
+    "file": "BeyondTheNetwork.graphml",
+    "provider": "btn",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 53,
+    "core_vertices": 28,
+    "physical_edges": 40,
+    "logical_edges": 40,
+    "source_sha256": "9eb41b4ff84d99c5e0f0c822768d21e7f57764c7e2316fe548e15b707be93679"
+  },
+  {
+    "file": "Bics.graphml",
+    "provider": "bics",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 33,
+    "core_vertices": 27,
+    "physical_edges": 42,
+    "logical_edges": 42,
+    "source_sha256": "3a955b4d03255602e3bd4525cbfbf1553543790ea02d6f3ffcef5b4b3258bb21"
+  },
+  {
+    "file": "Biznet.graphml",
+    "provider": "biznetworks",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 29,
+    "core_vertices": 19,
+    "physical_edges": 21,
+    "logical_edges": 21,
+    "source_sha256": "15d0d01a894631bd0b1ff61b094221b4b65fc8726b952cdabd773b1da095dffb"
+  },
+  {
+    "file": "Bren.graphml",
+    "provider": "bren",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 37,
+    "core_vertices": 7,
+    "physical_edges": 7,
+    "logical_edges": 7,
+    "source_sha256": "9b2c511277d328639ce768a0c106d3927d64ed5f9542577fc3171538c773b962"
+  },
+  {
+    "file": "BsonetEurope.graphml",
+    "provider": "bsonetworksolutions",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 18,
+    "core_vertices": 11,
+    "physical_edges": 16,
+    "logical_edges": 16,
+    "source_sha256": "fcbfa3b91278e679d0d3949e81d76916e2630c25464ad70f7dbe22834aa6cbd0"
+  },
+  {
+    "file": "BtAsiaPac.graphml",
+    "provider": "bt asia-pacific",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 20,
+    "core_vertices": 14,
+    "physical_edges": 25,
+    "logical_edges": 25,
+    "source_sha256": "5e97686968b16a76477298974e6e0928bac2f467fc43adda4782454bda7700cb"
+  },
+  {
+    "file": "BtEurope.graphml",
+    "provider": "bt europe",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 24,
+    "core_vertices": 17,
+    "physical_edges": 30,
+    "logical_edges": 30,
+    "source_sha256": "7cba0b6a9e5ec67f1dfe41e18951a81812f3cf02a211876c6a42267086fd8fd5"
+  },
+  {
+    "file": "BtLatinAmerica.graphml",
+    "provider": "bt latin america",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 51,
+    "core_vertices": 10,
+    "physical_edges": 12,
+    "logical_edges": 12,
+    "source_sha256": "98995ce996c875286fd9103834353ed58ccdbbc536c14f9739010173f170cb8a"
+  },
+  {
+    "file": "BtNorthAmerica.graphml",
+    "provider": "bt north america",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 36,
+    "core_vertices": 36,
+    "physical_edges": 76,
+    "logical_edges": 76,
+    "source_sha256": "074087b94c72cda524a7ddfdbd2a7ea2153aa3938651c3d05a19021db29063e2"
+  },
+  {
+    "file": "Canerie.graphml",
+    "provider": "canerie",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 32,
+    "core_vertices": 13,
+    "physical_edges": 19,
+    "logical_edges": 19,
+    "source_sha256": "7bb88008490e6407c5aca3494f74264a536f07463f5909cd20c91d1819a542ca"
+  },
+  {
+    "file": "Carnet.graphml",
+    "provider": "carnet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 44,
+    "core_vertices": 2,
+    "physical_edges": 1,
+    "logical_edges": 1,
+    "source_sha256": "81fa2532124d30caa1b170c85acba5584b0a3af9c0dd6fd64042432bfbbda082"
+  },
+  {
+    "file": "Cernet.graphml",
+    "provider": "cernet",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 41,
+    "core_vertices": 18,
+    "physical_edges": 30,
+    "logical_edges": 29,
+    "source_sha256": "7cc1f09b8887604641c2ce5b1f54a16faf1fe64928b76e0ff95ed99564c327a0"
+  },
+  {
+    "file": "Cesnet1993.graphml",
+    "provider": "cesnet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PREVIOUS_OR_SELECTED_PROVIDER",
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 10,
+    "core_vertices": 2,
+    "physical_edges": 1,
+    "logical_edges": 1,
+    "source_sha256": "4afdd012377a39c570acfdad45736df9242dd7ab78c5d5bd1a6b7e082422f67d"
+  },
+  {
+    "file": "Cesnet1997.graphml",
+    "provider": "cesnet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PREVIOUS_OR_SELECTED_PROVIDER",
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 13,
+    "core_vertices": 2,
+    "physical_edges": 1,
+    "logical_edges": 1,
+    "source_sha256": "4adb3f9d15fe795bdf76f749b5029af62d2b62e50df91d42b00ef799cd0aaf28"
+  },
+  {
+    "file": "Cesnet1999.graphml",
+    "provider": "cesnet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PREVIOUS_OR_SELECTED_PROVIDER",
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 13,
+    "core_vertices": 2,
+    "physical_edges": 1,
+    "logical_edges": 1,
+    "source_sha256": "f73787518ef0639339e8bfa51861125a44f5190c081e4ae2483d55e322374365"
+  },
+  {
+    "file": "Cesnet2.graphml",
+    "provider": "cesnet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PREVIOUS_OR_SELECTED_PROVIDER"
+    ],
+    "source_vertices": 30,
+    "core_vertices": 17,
+    "physical_edges": 29,
+    "logical_edges": 29,
+    "source_sha256": "48dfd9658fe9bf19dd519e211cf3f4107784941f5ddca3463a4af9de98a59d5d"
+  },
+  {
+    "file": "Cesnet2001.graphml",
+    "provider": "cesnet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PREVIOUS_OR_SELECTED_PROVIDER",
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 23,
+    "core_vertices": 4,
+    "physical_edges": 4,
+    "logical_edges": 4,
+    "source_sha256": "7d874dfa9349b39578d46773a84b67ece585ce3e454f56317443d109fcdec68f"
+  },
+  {
+    "file": "Cesnet200304.graphml",
+    "provider": "cesnet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PREVIOUS_OR_SELECTED_PROVIDER",
+      "CORE_VERTEX_BOUND"
+    ],
+    "source_vertices": 29,
+    "core_vertices": 9,
+    "physical_edges": 12,
+    "logical_edges": 12,
+    "source_sha256": "e8a0fed8d55d77a5f63a0123eccf5866f6ee00a530fa41165d7a993ae92cb0e7"
+  },
+  {
+    "file": "Cesnet200511.graphml",
+    "provider": "cesnet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PREVIOUS_OR_SELECTED_PROVIDER"
+    ],
+    "source_vertices": 39,
+    "core_vertices": 11,
+    "physical_edges": 16,
+    "logical_edges": 16,
+    "source_sha256": "e84c2ee58799f8cea4194d6ddc68c925e1f76a7ee1d441693cc1050430079780"
+  },
+  {
+    "file": "Cesnet200603.graphml",
+    "provider": "cesnet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PREVIOUS_OR_SELECTED_PROVIDER"
+    ],
+    "source_vertices": 39,
+    "core_vertices": 11,
+    "physical_edges": 16,
+    "logical_edges": 16,
+    "source_sha256": "6bd1d3171e9b857c19fa733613e24626705ec3c593c3e6e0a811a883cb17337f"
+  },
+  {
+    "file": "Cesnet200706.graphml",
+    "provider": "cesnet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PREVIOUS_OR_SELECTED_PROVIDER"
+    ],
+    "source_vertices": 44,
+    "core_vertices": 11,
+    "physical_edges": 18,
+    "logical_edges": 18,
+    "source_sha256": "f076e31ee3e78fab51e54ffa55b9ae0e8e1d3b837b3c9cb42e91f4f78e55e324"
+  },
+  {
+    "file": "Cesnet201006.graphml",
+    "provider": "cesnet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PREVIOUS_OR_SELECTED_PROVIDER"
+    ],
+    "source_vertices": 52,
+    "core_vertices": 19,
+    "physical_edges": 30,
+    "logical_edges": 30,
+    "source_sha256": "19357c676518c6a8bc16b0ef383ef240350d325db545503850b243715b3e012d"
+  },
+  {
+    "file": "Chinanet.graphml",
+    "provider": "china telecom",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 42,
+    "core_vertices": 20,
+    "physical_edges": 44,
+    "logical_edges": 44,
+    "source_sha256": "7319dac092bcdaef172645562829a112024f5f1c29d45698907ce995f6e75b45"
+  },
+  {
+    "file": "Claranet.graphml",
+    "provider": "claranet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 15,
+    "core_vertices": 7,
+    "physical_edges": 9,
+    "logical_edges": 9,
+    "source_sha256": "24111940ce162eb465a32b451ac8f0ebd723efb4e4a8a3ae6996793cc072c206"
+  },
+  {
+    "file": "Cogentco.graphml",
+    "provider": "cogent",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 197,
+    "core_vertices": 145,
+    "physical_edges": 185,
+    "logical_edges": 185,
+    "source_sha256": "fca525c7484c1044feb09add79fec0861d4b234622e5d07b7d202470ad0a09ca"
+  },
+  {
+    "file": "Colt.graphml",
+    "provider": "colt telecom",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 153,
+    "core_vertices": 65,
+    "physical_edges": 79,
+    "logical_edges": 79,
+    "source_sha256": "e20cd0f5ecf0279d3308b90fa6749c41563d8463e45ba13f19460289f94946c5"
+  },
+  {
+    "file": "Columbus.graphml",
+    "provider": "columbus networks",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 70,
+    "core_vertices": 57,
+    "physical_edges": 72,
+    "logical_edges": 72,
+    "source_sha256": "af9f50597e20344f88e328bfaebe42a90435a920930775b4fa47a3f81123e136"
+  },
+  {
+    "file": "Compuserve.graphml",
+    "provider": "compuserve",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 14,
+    "core_vertices": 11,
+    "physical_edges": 14,
+    "logical_edges": 14,
+    "source_sha256": "6200f122db56ad6d4db25ae15cad412d275c574888c7a773ed4ee4f184d3b0ab"
+  },
+  {
+    "file": "CrlNetworkServices.graphml",
+    "provider": "crl",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 33,
+    "core_vertices": 29,
+    "physical_edges": 33,
+    "logical_edges": 33,
+    "source_sha256": "31d66ab8b89f6b2289f8bde87c201c312141b0f7081ebe556ce2d12c9e5fc042"
+  },
+  {
+    "file": "Cudi.graphml",
+    "provider": "cudi",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 51,
+    "core_vertices": 8,
+    "physical_edges": 9,
+    "logical_edges": 9,
+    "source_sha256": "57af4f6b2f99b872d0186984b12cdf2355eec81920eede24ebb92e8afc5df5c4"
+  },
+  {
+    "file": "Cwix.graphml",
+    "provider": "cwix",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 36,
+    "core_vertices": 19,
+    "physical_edges": 23,
+    "logical_edges": 23,
+    "source_sha256": "e84711f24a1a45cebcee6814660b88dcf7e5677d0419754917c41db47968abeb"
+  },
+  {
+    "file": "Cynet.graphml",
+    "provider": "cynet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 30,
+    "core_vertices": 2,
+    "physical_edges": 1,
+    "logical_edges": 1,
+    "source_sha256": "2e73fbb6e3db8ef765ba00c56f610ae31dd4c207cc6d9db9c24dd0b07510c376"
+  },
+  {
+    "file": "Darkstrand.graphml",
+    "provider": "darkstrand",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND"
+    ],
+    "source_vertices": 28,
+    "core_vertices": 28,
+    "physical_edges": 31,
+    "logical_edges": 31,
+    "source_sha256": "dc9713fcae3b627b43789fe996a1efcd8955f04fb0d8ed8f75a100072b513d6d"
+  },
+  {
+    "file": "Dataxchange.graphml",
+    "provider": "dataxchange",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 6,
+    "core_vertices": 5,
+    "physical_edges": 10,
+    "logical_edges": 10,
+    "source_sha256": "f34ed55d13b3274bc066b0685fd7889baa2cfc3a823152630685125edde6803a"
+  },
+  {
+    "file": "Deltacom.graphml",
+    "provider": "itc deltacom",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 113,
+    "core_vertices": 103,
+    "physical_edges": 172,
+    "logical_edges": 151,
+    "source_sha256": "3fbfc57e17520fdd7f28b62a2a7c39f16a1e07f16a7192983d695253c2153465"
+  },
+  {
+    "file": "DeutscheTelekom.graphml",
+    "provider": "deutsche telekom",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 39,
+    "core_vertices": 18,
+    "physical_edges": 38,
+    "logical_edges": 38,
+    "source_sha256": "c36a6a42feb5018f3f5a834c794bbf35d26b9a71776a8685744c83c446a6d7d3"
+  },
+  {
+    "file": "DeutscheTelekomIpTransitIpPopsOnly.graphml",
+    "provider": "deutsche telecom",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 39,
+    "core_vertices": 18,
+    "physical_edges": 38,
+    "logical_edges": 38,
+    "source_sha256": "b4115400cbf5d0d740dd65182beb1f223b61192b469151e5563d23218aa386e7"
+  },
+  {
+    "file": "Dfn.graphml",
+    "provider": "dfn",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 58,
+    "core_vertices": 51,
+    "physical_edges": 80,
+    "logical_edges": 80,
+    "source_sha256": "dbc464a458407bd631c05c4827f3ab44e25e3db16a1998d8822d0a6deef1630d"
+  },
+  {
+    "file": "DialtelecomCz.graphml",
+    "provider": "dial telecom",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 193,
+    "core_vertices": 104,
+    "physical_edges": 116,
+    "logical_edges": 116,
+    "source_sha256": "e79607169888382523d85b67da42c8a9a16d2121f1f9d8933642a735e3a4d283"
+  },
+  {
+    "file": "Digex.graphml",
+    "provider": "digex",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 31,
+    "core_vertices": 31,
+    "physical_edges": 38,
+    "logical_edges": 35,
+    "source_sha256": "17ffd57b0747dcb93276743c624a03dc90cec54f92779d2f1f1205da1ce08fd1"
+  },
+  {
+    "file": "Easynet.graphml",
+    "provider": "easynet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND"
+    ],
+    "source_vertices": 19,
+    "core_vertices": 8,
+    "physical_edges": 13,
+    "logical_edges": 12,
+    "source_sha256": "881e1e8b00ba73f8c9dee3b6a50574f9c6affa7f0363c2885497f415a62437e9"
+  },
+  {
+    "file": "Eenet.graphml",
+    "provider": "eenet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 13,
+    "core_vertices": 3,
+    "physical_edges": 4,
+    "logical_edges": 3,
+    "source_sha256": "18ed41645a87a8c4e3363c252ec6fa21d84dcd0270aabfb54d7bdb6beaa721c8"
+  },
+  {
+    "file": "EliBackbone.graphml",
+    "provider": "electric lightwave",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 20,
+    "core_vertices": 20,
+    "physical_edges": 30,
+    "logical_edges": 30,
+    "source_sha256": "39b41caed180bd3ca7fd19deb9774b77a62a81c768009d5c9238705437aae54a"
+  },
+  {
+    "file": "Epoch.graphml",
+    "provider": "epoch",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 6,
+    "core_vertices": 6,
+    "physical_edges": 7,
+    "logical_edges": 7,
+    "source_sha256": "32d49ea2e32838793a1dfbcf762f19f4fd42968048533a40bd49c5ebfbbeb8c8"
+  },
+  {
+    "file": "Ernet.graphml",
+    "provider": "ernet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 30,
+    "core_vertices": 7,
+    "physical_edges": 9,
+    "logical_edges": 9,
+    "source_sha256": "ea601109f524e34ae53aa89b3a0fe089852e6a899eb5aaccea2097bf7ca5fc99"
+  },
+  {
+    "file": "Esnet.graphml",
+    "provider": "esnet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 68,
+    "core_vertices": 26,
+    "physical_edges": 47,
+    "logical_edges": 36,
+    "source_sha256": "c1ad7132fc9e35d171733ea152b00ed47a7a4a86d40f0f374a090487a2990255"
+  },
+  {
+    "file": "Eunetworks.graphml",
+    "provider": "eunetworks",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 15,
+    "core_vertices": 13,
+    "physical_edges": 17,
+    "logical_edges": 15,
+    "source_sha256": "a25dd2656d1690069ba8ac46f7bd3bb78f4c81aab88d533bcbce4c824f5478c6"
+  },
+  {
+    "file": "Evolink.graphml",
+    "provider": "evolink",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 37,
+    "core_vertices": 22,
+    "physical_edges": 30,
+    "logical_edges": 30,
+    "source_sha256": "0cd550002469e130f211e4663a229e82253de78254bd6cc068af4451897cfe70"
+  },
+  {
+    "file": "Fatman.graphml",
+    "provider": "fatman",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND"
+    ],
+    "source_vertices": 17,
+    "core_vertices": 8,
+    "physical_edges": 12,
+    "logical_edges": 12,
+    "source_sha256": "67ca2d616c22be20c342322757de204ed7a6c507626f4c3478040ab8de8aba9a"
+  },
+  {
+    "file": "Fccn.graphml",
+    "provider": "fccn",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 23,
+    "core_vertices": 4,
+    "physical_edges": 6,
+    "logical_edges": 5,
+    "source_sha256": "2c9e57e7a6a2339553d86bfda21fce2a9fa200a2f899f3a90f23bc4cf13ca999"
+  },
+  {
+    "file": "Forthnet.graphml",
+    "provider": "forthnet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 62,
+    "core_vertices": 3,
+    "physical_edges": 3,
+    "logical_edges": 3,
+    "source_sha256": "3ce3740e06ba25b9f5c9884ae503e4732dad7b99e57cfe81baea37bd59f3350f"
+  },
+  {
+    "file": "Funet.graphml",
+    "provider": "funet",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 26,
+    "core_vertices": 23,
+    "physical_edges": 28,
+    "logical_edges": 27,
+    "source_sha256": "27a3c64b6f9130b6a99e4bb905b28852f702cf0d7ca294419f83892b7bccd121"
+  },
+  {
+    "file": "Gambia.graphml",
+    "provider": "gambia",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 28,
+    "core_vertices": 6,
+    "physical_edges": 6,
+    "logical_edges": 6,
+    "source_sha256": "c668945a3552fdc650e821a2cb7e02d2076ee15c88605406495e4d52b87e7d7c"
+  },
+  {
+    "file": "Garr.graphml",
+    "provider": "garr",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 56,
+    "core_vertices": 22,
+    "physical_edges": 37,
+    "logical_edges": 36,
+    "source_sha256": "cbde11260d36da2a9f8fc04434506997411ba7e65a0b330932c2745a3bc514ad"
+  },
+  {
+    "file": "Garr199901.graphml",
+    "provider": "garr",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 16,
+    "core_vertices": 4,
+    "physical_edges": 6,
+    "logical_edges": 6,
+    "source_sha256": "ec8095a2180c131991b9d9dddcb438269987a1a67d555a5280cb62bad639fa88"
+  },
+  {
+    "file": "Garr199904.graphml",
+    "provider": "garr",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 23,
+    "core_vertices": 4,
+    "physical_edges": 6,
+    "logical_edges": 6,
+    "source_sha256": "1f5c3d492b91e8cb4e41bc7942202422cc206e3176b99888a49b9139d4413fea"
+  },
+  {
+    "file": "Garr199905.graphml",
+    "provider": "garr",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 23,
+    "core_vertices": 4,
+    "physical_edges": 6,
+    "logical_edges": 6,
+    "source_sha256": "987e30d828289dcc863505f3b79ffd41d92f355f58a1772353c527f0de245dcb"
+  },
+  {
+    "file": "Garr200004.graphml",
+    "provider": "garr",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 22,
+    "core_vertices": 4,
+    "physical_edges": 6,
+    "logical_edges": 6,
+    "source_sha256": "fa04dcb23be3b85b1e8f75b269a7939fd6bf3a29d83356ff7abfa397c49255b5"
+  },
+  {
+    "file": "Garr200109.graphml",
+    "provider": "garr",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 22,
+    "core_vertices": 4,
+    "physical_edges": 6,
+    "logical_edges": 6,
+    "source_sha256": "77c0a1b681df57d669540fc32dcfc235436c1b7711838145b77ae9c72a0bfad4"
+  },
+  {
+    "file": "Garr200112.graphml",
+    "provider": "garr",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 24,
+    "core_vertices": 4,
+    "physical_edges": 6,
+    "logical_edges": 6,
+    "source_sha256": "6c9941b063b5cbfbeb85b3bebfa324eeefaba3813e1cf3747f6bfdc2ae22c1ef"
+  },
+  {
+    "file": "Garr200212.graphml",
+    "provider": "garr",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 27,
+    "core_vertices": 4,
+    "physical_edges": 6,
+    "logical_edges": 5,
+    "source_sha256": "cd351dd18d12170c202b3ccae3fe6989220a334120ce2323e742a3c536a744b1"
+  },
+  {
+    "file": "Garr200404.graphml",
+    "provider": "garr",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 22,
+    "core_vertices": 4,
+    "physical_edges": 6,
+    "logical_edges": 6,
+    "source_sha256": "db78a49a55083ea879d9e1aff64fa808b0dd940b0a8f7e5202b450f98942b224"
+  },
+  {
+    "file": "Garr200902.graphml",
+    "provider": "garr",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 54,
+    "core_vertices": 22,
+    "physical_edges": 38,
+    "logical_edges": 36,
+    "source_sha256": "388ca2863371d22da47ccf8c9fd5956d5704e301c5da1369d7a03da1dbc99ec5"
+  },
+  {
+    "file": "Garr200908.graphml",
+    "provider": "garr",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 54,
+    "core_vertices": 22,
+    "physical_edges": 36,
+    "logical_edges": 36,
+    "source_sha256": "4bb1c12173b37c1bcc8ecc5ce30fe843d0d8d37f3ccf2cdb1f612b0146c081e6"
+  },
+  {
+    "file": "Garr200909.graphml",
+    "provider": "garr",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 55,
+    "core_vertices": 22,
+    "physical_edges": 36,
+    "logical_edges": 36,
+    "source_sha256": "770731b7b0e39e3c26f919dee99083810c9d51ece4ab4dc316090713aa937496"
+  },
+  {
+    "file": "Garr200912.graphml",
+    "provider": "garr",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 54,
+    "core_vertices": 22,
+    "physical_edges": 36,
+    "logical_edges": 36,
+    "source_sha256": "1c0412a56b6f16248567f744949b5d48d972a58eec28b9d220be18a2a11304c7"
+  },
+  {
+    "file": "Garr201001.graphml",
+    "provider": "garr",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 54,
+    "core_vertices": 22,
+    "physical_edges": 36,
+    "logical_edges": 36,
+    "source_sha256": "eb8b67a3f2649dd809431ed9836895ca937be896f2ab818425558578ef5798ae"
+  },
+  {
+    "file": "Garr201003.graphml",
+    "provider": "garr",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 54,
+    "core_vertices": 22,
+    "physical_edges": 38,
+    "logical_edges": 36,
+    "source_sha256": "15f04d94b4d3f955cbc07a5161e941fb16da3a3d9a9d7f1c30a7b34c387f4009"
+  },
+  {
+    "file": "Garr201004.graphml",
+    "provider": "garr",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 54,
+    "core_vertices": 22,
+    "physical_edges": 38,
+    "logical_edges": 36,
+    "source_sha256": "5bcae4f1814d3a07311cfd11623f139757be1f1f91d71627d53dc56f0cd25ef8"
+  },
+  {
+    "file": "Garr201005.graphml",
+    "provider": "garr",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 55,
+    "core_vertices": 22,
+    "physical_edges": 38,
+    "logical_edges": 36,
+    "source_sha256": "ebfa0dc104a2a112fb06e118fcf982dfc86a7268a999e72e8166c6dac398ce92"
+  },
+  {
+    "file": "Garr201007.graphml",
+    "provider": "garr",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 55,
+    "core_vertices": 22,
+    "physical_edges": 38,
+    "logical_edges": 36,
+    "source_sha256": "5a88a7dc81085f712ee42949f5441ad2589e1653580c1b15036e4187b43fe412"
+  },
+  {
+    "file": "Garr201008.graphml",
+    "provider": "garr",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 55,
+    "core_vertices": 22,
+    "physical_edges": 38,
+    "logical_edges": 36,
+    "source_sha256": "382063bf8acdc4edf17ddc2f1042ae8aeb90e685dec9bc40523485e39e294fab"
+  },
+  {
+    "file": "Garr201010.graphml",
+    "provider": "garr",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 56,
+    "core_vertices": 22,
+    "physical_edges": 38,
+    "logical_edges": 36,
+    "source_sha256": "fb14092e8129a60978e764d52a6f945c965ee53d05f24e831e1ea2e5109d5645"
+  },
+  {
+    "file": "Garr201012.graphml",
+    "provider": "garr",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 56,
+    "core_vertices": 22,
+    "physical_edges": 38,
+    "logical_edges": 36,
+    "source_sha256": "6083a732a0b7c5c111e76a2a3577a652f996228f126d0499a0ee65279c7ad15c"
+  },
+  {
+    "file": "Garr201101.graphml",
+    "provider": "garr",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 56,
+    "core_vertices": 22,
+    "physical_edges": 39,
+    "logical_edges": 36,
+    "source_sha256": "40deb45a3429504fdd0fbcb71ffd1540ec8112d06e41a5110835217e329873ab"
+  },
+  {
+    "file": "Garr201102.graphml",
+    "provider": "garr",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 57,
+    "core_vertices": 22,
+    "physical_edges": 39,
+    "logical_edges": 36,
+    "source_sha256": "daab6df7ebe524763507f59a720924b58d458b342f398d0aa1c2e74955919b8b"
+  },
+  {
+    "file": "Garr201103.graphml",
+    "provider": "garr",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 58,
+    "core_vertices": 22,
+    "physical_edges": 39,
+    "logical_edges": 36,
+    "source_sha256": "8815187ddecd1318e2e45186f03eff23b8d1f180d34350a30857f2bf29613f91"
+  },
+  {
+    "file": "Garr201104.graphml",
+    "provider": "garr",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 59,
+    "core_vertices": 23,
+    "physical_edges": 42,
+    "logical_edges": 38,
+    "source_sha256": "b1eb313fb098ca118d4a57e81fffd339f4d3222554f373d0d3eeb060eefb07eb"
+  },
+  {
+    "file": "Garr201105.graphml",
+    "provider": "garr",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 59,
+    "core_vertices": 23,
+    "physical_edges": 41,
+    "logical_edges": 38,
+    "source_sha256": "2bb1fcf7880d61b4fe3396d6d7b650e4cd4c9ae35d54d4bb2fd01c73d846b24e"
+  },
+  {
+    "file": "Garr201107.graphml",
+    "provider": "garr",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 59,
+    "core_vertices": 23,
+    "physical_edges": 41,
+    "logical_edges": 38,
+    "source_sha256": "c56b26edde9d8bf3542279ab17eaae0c46f8406adcb9755620a3a27d7a80f801"
+  },
+  {
+    "file": "Garr201108.graphml",
+    "provider": "garr",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 59,
+    "core_vertices": 23,
+    "physical_edges": 41,
+    "logical_edges": 38,
+    "source_sha256": "4494607bae9c684a16c7da11ee824cdcf4e790c358dea93fd97c0c5c71a5bc69"
+  },
+  {
+    "file": "Garr201109.graphml",
+    "provider": "garr",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 59,
+    "core_vertices": 23,
+    "physical_edges": 41,
+    "logical_edges": 38,
+    "source_sha256": "a41b22107abd9900c84b3b3d9f64f141981f134701a1c67b95ea031a29c8c318"
+  },
+  {
+    "file": "Garr201110.graphml",
+    "provider": "garr",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 59,
+    "core_vertices": 23,
+    "physical_edges": 42,
+    "logical_edges": 38,
+    "source_sha256": "b53006b83601616963b5e55ae10c92bf70a0afa28db55c46f62d6f4f1441cacb"
+  },
+  {
+    "file": "Garr201111.graphml",
+    "provider": "garr",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 60,
+    "core_vertices": 22,
+    "physical_edges": 40,
+    "logical_edges": 36,
+    "source_sha256": "a1fd900934d5c45eee3c193bf24072b73767da9068bdbba2e43760e645820889"
+  },
+  {
+    "file": "Garr201112.graphml",
+    "provider": "garr",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 61,
+    "core_vertices": 22,
+    "physical_edges": 40,
+    "logical_edges": 36,
+    "source_sha256": "a6b336e6dd9977c92d7e9c56c100cf725414bb36dda283c852c5e57e0cd9ea1d"
+  },
+  {
+    "file": "Garr201201.graphml",
+    "provider": "garr",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 61,
+    "core_vertices": 22,
+    "physical_edges": 40,
+    "logical_edges": 36,
+    "source_sha256": "f5188bcd8285c787108a22f21fdd9fe919954a6e9e141949e43eb6cc2afbb99b"
+  },
+  {
+    "file": "Gblnet.graphml",
+    "provider": "globalnetru",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 8,
+    "core_vertices": 2,
+    "physical_edges": 1,
+    "logical_edges": 1,
+    "source_sha256": "58c252c0faa75271adf22d43fcd2ae39d4d6b03a1131842470a478b77fdb6e58"
+  },
+  {
+    "file": "Geant.graphml",
+    "provider": "geant",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 37,
+    "core_vertices": 29,
+    "physical_edges": 46,
+    "logical_edges": 46,
+    "source_sha256": "9dcc778f83b4e61c15bf1e5f8a4df4211adf46b82bc44b1fc9a03c26d1f64994"
+  },
+  {
+    "file": "Geant2001.graphml",
+    "provider": "geant",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 27,
+    "core_vertices": 18,
+    "physical_edges": 29,
+    "logical_edges": 29,
+    "source_sha256": "ed64843b133b5bd971688bc5a0ae54d07abb9c8e6b7d58b95c7fb01759f820bf"
+  },
+  {
+    "file": "Geant2009.graphml",
+    "provider": "geant",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 34,
+    "core_vertices": 28,
+    "physical_edges": 45,
+    "logical_edges": 45,
+    "source_sha256": "eb1cd0066dabb928bbc65805b560dc87ad08d44a2be1ea3c76197ffc29f8c453"
+  },
+  {
+    "file": "Geant2010.graphml",
+    "provider": "geant",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 37,
+    "core_vertices": 29,
+    "physical_edges": 47,
+    "logical_edges": 47,
+    "source_sha256": "53cf61a0ab3693ccbbb0dc545ef32b710ed776c75e10e14f60cf3b52cc32b60b"
+  },
+  {
+    "file": "Geant2011.graphml",
+    "provider": "geant",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 40,
+    "core_vertices": 29,
+    "physical_edges": 49,
+    "logical_edges": 48,
+    "source_sha256": "8c3b7f4449cef396d7fd9278a1b5967b0946d85060f11df20069384fdea3cea2"
+  },
+  {
+    "file": "Geant2012.graphml",
+    "provider": "geant",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 40,
+    "core_vertices": 30,
+    "physical_edges": 50,
+    "logical_edges": 50,
+    "source_sha256": "8487b2fb091d53f1317035162df0d8ef436c9e1d10727e26865b0ecd89d4786e"
+  },
+  {
+    "file": "Getnet.graphml",
+    "provider": "getnet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 7,
+    "core_vertices": 5,
+    "physical_edges": 6,
+    "logical_edges": 6,
+    "source_sha256": "0d45ed769f90cd67240982596fa0c1e73291430af673a9e86a7e6ebf95099f79"
+  },
+  {
+    "file": "Globalcenter.graphml",
+    "provider": "globalcenter",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 9,
+    "core_vertices": 9,
+    "physical_edges": 36,
+    "logical_edges": 36,
+    "source_sha256": "b148ef125c44f49be74de999e825f67dc07cb0a2c3b395e1ff905c23f14a8646"
+  },
+  {
+    "file": "Globenet.graphml",
+    "provider": "globenet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 67,
+    "core_vertices": 44,
+    "physical_edges": 81,
+    "logical_edges": 70,
+    "source_sha256": "6130633b7999e55460de16f7ef15e50f0bd94a2f02207522bdd3c3003657b59c"
+  },
+  {
+    "file": "Goodnet.graphml",
+    "provider": "goodnet",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 17,
+    "core_vertices": 13,
+    "physical_edges": 27,
+    "logical_edges": 27,
+    "source_sha256": "439c900cf37e87573743cc6474979ad229c45dc5b46843bacd656ea1f733dabc"
+  },
+  {
+    "file": "Grena.graphml",
+    "provider": "grena",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 16,
+    "core_vertices": 2,
+    "physical_edges": 1,
+    "logical_edges": 1,
+    "source_sha256": "0bd5b1b5fae543394a1f37482d9753be68285fc4460fc0d3a6fe29b29557d479"
+  },
+  {
+    "file": "Gridnet.graphml",
+    "provider": "gridnet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND"
+    ],
+    "source_vertices": 9,
+    "core_vertices": 9,
+    "physical_edges": 20,
+    "logical_edges": 20,
+    "source_sha256": "32a58fe15f56c18409873313cf11e15b69ea1d554cf236cc2e886c619e44eb62"
+  },
+  {
+    "file": "Grnet.graphml",
+    "provider": "grnet",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 37,
+    "core_vertices": 12,
+    "physical_edges": 21,
+    "logical_edges": 17,
+    "source_sha256": "30c50b06e4aaca39de329dd6841926709da92b1f210c6fbfc3fa9ec2be9d3f42"
+  },
+  {
+    "file": "GtsCe.graphml",
+    "provider": "gts ce",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 149,
+    "core_vertices": 133,
+    "physical_edges": 175,
+    "logical_edges": 175,
+    "source_sha256": "f04e777acee85df006eb2118647638350337a31a0ed668a9aab381e94797df76"
+  },
+  {
+    "file": "GtsCzechRepublic.graphml",
+    "provider": "gts czech republic",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 32,
+    "core_vertices": 19,
+    "physical_edges": 20,
+    "logical_edges": 20,
+    "source_sha256": "500dfce06a9e8664ca0a930596fe611607998944502de212e3490a1bb6a3a6af"
+  },
+  {
+    "file": "GtsHungary.graphml",
+    "provider": "gts hungary",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 30,
+    "core_vertices": 8,
+    "physical_edges": 8,
+    "logical_edges": 8,
+    "source_sha256": "23bdf0b8dd54a16220a357ccd7787758ace0df2c2d0da58eb2ee8a00797d9069"
+  },
+  {
+    "file": "GtsPoland.graphml",
+    "provider": "gts poland",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND"
+    ],
+    "source_vertices": 33,
+    "core_vertices": 26,
+    "physical_edges": 30,
+    "logical_edges": 30,
+    "source_sha256": "12dd4c4904f72ce40c773e1174705c01e6b0107f9479ef4d9d17f9b4594edbe2"
+  },
+  {
+    "file": "GtsRomania.graphml",
+    "provider": "gts romania",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND"
+    ],
+    "source_vertices": 21,
+    "core_vertices": 9,
+    "physical_edges": 12,
+    "logical_edges": 12,
+    "source_sha256": "82768731a8d528023cf0648b6f84c8a2540411cefce9322b7039303096f14436"
+  },
+  {
+    "file": "GtsSlovakia.graphml",
+    "provider": "gts slovakia",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 35,
+    "core_vertices": 8,
+    "physical_edges": 10,
+    "logical_edges": 10,
+    "source_sha256": "f8bc14240dcc8dafa0cd3680db9c008d1c3764abd2738f639f0ea276cd09efa7"
+  },
+  {
+    "file": "Harnet.graphml",
+    "provider": "harnet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND"
+    ],
+    "source_vertices": 21,
+    "core_vertices": 8,
+    "physical_edges": 12,
+    "logical_edges": 10,
+    "source_sha256": "395183d0228d2e50c8b15ea23d1064f453a5b7f54b7ba27a259df73397b6ae99"
+  },
+  {
+    "file": "Heanet.graphml",
+    "provider": "heanet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND"
+    ],
+    "source_vertices": 7,
+    "core_vertices": 7,
+    "physical_edges": 13,
+    "logical_edges": 11,
+    "source_sha256": "bcb457f2bfda1d1f90d01ed7ebb4152cb54f3773821c0e32f1da87d75214198d"
+  },
+  {
+    "file": "Hibernia.graphml",
+    "provider": "hibernia atlantic",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 18,
+    "core_vertices": 17,
+    "physical_edges": 20,
+    "logical_edges": 20,
+    "source_sha256": "eb1e12f5f6b3773c22c074913d7e8dbef2c827e07a279b13263aee147fa89fdb"
+  },
+  {
+    "file": "HiberniaCanada.graphml",
+    "provider": "hibernia atlantic (canada)",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 13,
+    "core_vertices": 11,
+    "physical_edges": 12,
+    "logical_edges": 12,
+    "source_sha256": "5b6aeb06342537c0487a1edede784cf180b1580a84d27cdf33c6cc6306e31994"
+  },
+  {
+    "file": "HiberniaGlobal.graphml",
+    "provider": "hibernia atlantic",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 55,
+    "core_vertices": 36,
+    "physical_edges": 55,
+    "logical_edges": 55,
+    "source_sha256": "e074b7f581651bf141948973261078ea0e3a6b56609406c18c5b8b63c8668d46"
+  },
+  {
+    "file": "HiberniaIreland.graphml",
+    "provider": "hibernia atlantic (ireland)",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 8,
+    "core_vertices": 5,
+    "physical_edges": 5,
+    "logical_edges": 5,
+    "source_sha256": "da8f6a28f81f3029b4214d72afb2f22530a8551d90fe6994833875dcfb34a545"
+  },
+  {
+    "file": "HiberniaNireland.graphml",
+    "provider": "hibernia atlantic (n. ireland)",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 18,
+    "core_vertices": 17,
+    "physical_edges": 20,
+    "logical_edges": 20,
+    "source_sha256": "3994de46649bb297491c6c32def0b791ba88d25618e1c2793a4682add56214f4"
+  },
+  {
+    "file": "HiberniaUk.graphml",
+    "provider": "hibernia atlantic (uk)",
+    "status": "EXCLUDED",
+    "reasons": [
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 15,
+    "core_vertices": 13,
+    "physical_edges": 13,
+    "logical_edges": 13,
+    "source_sha256": "aa86e5b22e3837660c639ff53dc8aff5b5db1a15fd1437e1b8d7d67f7f69109c"
+  },
+  {
+    "file": "HiberniaUs.graphml",
+    "provider": "hibernia atlantic (us)",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 22,
+    "core_vertices": 15,
+    "physical_edges": 22,
+    "logical_edges": 22,
+    "source_sha256": "66e4d5dbe17cf9f07b6e749ea409810f895769afc64f1fc406a8a64923b0e09f"
+  },
+  {
+    "file": "Highwinds.graphml",
+    "provider": "highwinds",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 18,
+    "core_vertices": 16,
+    "physical_edges": 50,
+    "logical_edges": 29,
+    "source_sha256": "143887553586e8e7b4e20970aa4b9dcee641d5907d184eaba37b4e9cdeb2cf49"
+  },
+  {
+    "file": "HostwayInternational.graphml",
+    "provider": "hostway international",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 16,
+    "core_vertices": 12,
+    "physical_edges": 16,
+    "logical_edges": 16,
+    "source_sha256": "091fff574561165d8193f46372927a72a94b177580562ddcbe5cd789cd556d8b"
+  },
+  {
+    "file": "HurricaneElectric.graphml",
+    "provider": "hurricane electric",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 24,
+    "core_vertices": 15,
+    "physical_edges": 27,
+    "logical_edges": 27,
+    "source_sha256": "e4d96a0fb7f8465335a943c981b943e38af26ccaffb73a49457918fc600666bc"
+  },
+  {
+    "file": "Ibm.graphml",
+    "provider": "ibm",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 18,
+    "core_vertices": 17,
+    "physical_edges": 23,
+    "logical_edges": 23,
+    "source_sha256": "b0bdf7ece08ae7a8ec994fb3cfddc9eb67564a8dae0d52b9ff285c8747ecd119"
+  },
+  {
+    "file": "Iij.graphml",
+    "provider": "iij",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 37,
+    "core_vertices": 27,
+    "physical_edges": 56,
+    "logical_edges": 55,
+    "source_sha256": "b8da78a4eb0d03ec31b2f19cd86c121f2fd6615e3aff2cf9d23152376861daac"
+  },
+  {
+    "file": "Iinet.graphml",
+    "provider": "iinet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND"
+    ],
+    "source_vertices": 31,
+    "core_vertices": 8,
+    "physical_edges": 12,
+    "logical_edges": 12,
+    "source_sha256": "efd10e99bcffd31a3db00a2c377dabfb8c2664da63d31b73a9fd62abee6c3cbd"
+  },
+  {
+    "file": "Ilan.graphml",
+    "provider": "ilan",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 14,
+    "core_vertices": 5,
+    "physical_edges": 6,
+    "logical_edges": 6,
+    "source_sha256": "c45b174393efd9c265e16eda402ee24a54f7c06199b3003dae42cf3edb2a5e87"
+  },
+  {
+    "file": "IntNetworkmap.graphml",
+    "provider": "viatel",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 89,
+    "core_vertices": 88,
+    "physical_edges": 92,
+    "logical_edges": 92,
+    "source_sha256": "56aafa6f2ee386af36cf96c775df8cf613f8fc61c24e1f19cfbbc3d97cbe9668"
+  },
+  {
+    "file": "Integra.graphml",
+    "provider": "integra telecom",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 27,
+    "core_vertices": 21,
+    "physical_edges": 29,
+    "logical_edges": 29,
+    "source_sha256": "698ff6f0f6f77bef9f8e379c8f7b1dc7fcacdb0f25a2b907d955f6a65fe262e1"
+  },
+  {
+    "file": "Intellifiber.graphml",
+    "provider": "intellifiber",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 73,
+    "core_vertices": 45,
+    "physical_edges": 62,
+    "logical_edges": 60,
+    "source_sha256": "ef357e0701c56347799eee9bf72e44f0e5b845f4de492e6496378faf5337e097"
+  },
+  {
+    "file": "Internet2.graphml",
+    "provider": "abilene",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PREVIOUS_OR_SELECTED_PROVIDER"
+    ],
+    "source_vertices": 20,
+    "core_vertices": 20,
+    "physical_edges": 26,
+    "logical_edges": 26,
+    "source_sha256": "eac8568cb9d3ad6dcded7719a5d3c5aaf7b758934243d7a81074d3a62bf6b5ce"
+  },
+  {
+    "file": "Internetmci.graphml",
+    "provider": "internetmci",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 19,
+    "core_vertices": 18,
+    "physical_edges": 43,
+    "logical_edges": 32,
+    "source_sha256": "d1fe4921feb5b2766d18657729896f0d4612fa4d1134c18065d4e1166aff95f6"
+  },
+  {
+    "file": "Internode.graphml",
+    "provider": "internode",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 66,
+    "core_vertices": 18,
+    "physical_edges": 29,
+    "logical_edges": 29,
+    "source_sha256": "3008fd6a3bb202f7279d57c062b4582cb24d3012510d1c1c5dd92eaac56922b4"
+  },
+  {
+    "file": "Interoute.graphml",
+    "provider": "interroute",
+    "status": "EXCLUDED",
+    "reasons": [
+      "SOURCE_SELF_LOOPS",
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 110,
+    "core_vertices": 95,
+    "physical_edges": 138,
+    "logical_edges": 130,
+    "source_sha256": "052b4575b5312372f5bda1dcbb519db5c9ce399e2a3e3eb5182d5a7bd9979b88"
+  },
+  {
+    "file": "Intranetwork.graphml",
+    "provider": "valleynet",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 39,
+    "core_vertices": 14,
+    "physical_edges": 21,
+    "logical_edges": 20,
+    "source_sha256": "04c4bb0010a4e03023d08d6c1c05a34a746506c92b8bee6347f95706d4e484ab"
+  },
+  {
+    "file": "Ion.graphml",
+    "provider": "ion",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 125,
+    "core_vertices": 111,
+    "physical_edges": 133,
+    "logical_edges": 131,
+    "source_sha256": "ff91cc18a0c6ae487988835c27758b007750b8b4df581d16eefbbe9cd777af53"
+  },
+  {
+    "file": "IowaStatewideFiberMap.graphml",
+    "provider": "ins ixc services",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 33,
+    "core_vertices": 27,
+    "physical_edges": 35,
+    "logical_edges": 35,
+    "source_sha256": "47aebb96357ea6e37c1055baa40b9b644b718d52d51860f466a30acd730d58d6"
+  },
+  {
+    "file": "Iris.graphml",
+    "provider": "iris networks",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 51,
+    "core_vertices": 38,
+    "physical_edges": 49,
+    "logical_edges": 49,
+    "source_sha256": "d0a74884f5dbb445f23c0e5c449b262ac5a90758ba6d2b4644094afc924d7b9f"
+  },
+  {
+    "file": "Istar.graphml",
+    "provider": "istar",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 23,
+    "core_vertices": 3,
+    "physical_edges": 3,
+    "logical_edges": 3,
+    "source_sha256": "157eedef621d47e5e1db8f9e13abfdc214f57b70d8f4cc72510af324a7c8423a"
+  },
+  {
+    "file": "Itnet.graphml",
+    "provider": "itnet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 11,
+    "core_vertices": 2,
+    "physical_edges": 1,
+    "logical_edges": 1,
+    "source_sha256": "8425cdffe68ba58cd39d97d8ccca2a2d617c6481cf456bcb2d2e0d6d0a98cf70"
+  },
+  {
+    "file": "JanetExternal.graphml",
+    "provider": "janet external",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 12,
+    "core_vertices": 2,
+    "physical_edges": 1,
+    "logical_edges": 1,
+    "source_sha256": "1b03ea263394729ea2ab3ea2d8a8c6ddd765dac4df19a808bf9e080411d48657"
+  },
+  {
+    "file": "Janetbackbone.graphml",
+    "provider": "janet backbone",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 29,
+    "core_vertices": 29,
+    "physical_edges": 45,
+    "logical_edges": 45,
+    "source_sha256": "0e030ebed8e474d20de0de88053e08fed187b247b87fd8a0b5c4e741b3d47046"
+  },
+  {
+    "file": "Janetlense.graphml",
+    "provider": "janet lense",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 20,
+    "core_vertices": 17,
+    "physical_edges": 37,
+    "logical_edges": 31,
+    "source_sha256": "d692a6fadf63e2729ddf199e318dc904db05c02a05aa67e349ca75c46a01f4b4"
+  },
+  {
+    "file": "Jgn2Plus.graphml",
+    "provider": "jgn2plus-japan",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 18,
+    "core_vertices": 2,
+    "physical_edges": 1,
+    "logical_edges": 1,
+    "source_sha256": "f5e8c4336cfedd9ad6ab5d93a144f3f61c34bdad356b3e58a783105f11571c1e"
+  },
+  {
+    "file": "Karen.graphml",
+    "provider": "karen",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 25,
+    "core_vertices": 8,
+    "physical_edges": 9,
+    "logical_edges": 9,
+    "source_sha256": "5f67346ceb1e81492db69699632808d71e0243aecb9c001f465aa2cbbf102519"
+  },
+  {
+    "file": "Kdl.graphml",
+    "provider": "kentucky datalink",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 754,
+    "core_vertices": 672,
+    "physical_edges": 814,
+    "logical_edges": 811,
+    "source_sha256": "f0ef1032bb89695c53dc7ff95cbbdb773eb1ca0a9f3b4396cd293bac1db961cf"
+  },
+  {
+    "file": "KentmanApr2007.graphml",
+    "provider": "kentman",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 23,
+    "core_vertices": 5,
+    "physical_edges": 6,
+    "logical_edges": 6,
+    "source_sha256": "e6a1a0fdc1ef510cbf18d05f72b4ff1d50964c3a7c4f4fea8d856fba302d747b"
+  },
+  {
+    "file": "KentmanAug2005.graphml",
+    "provider": "kentman",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 28,
+    "core_vertices": 6,
+    "physical_edges": 8,
+    "logical_edges": 8,
+    "source_sha256": "0705bf64c812c352957487670ffe26a9366d30ceebadd17091c7175e3f9230be"
+  },
+  {
+    "file": "KentmanFeb2008.graphml",
+    "provider": "kentman",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 26,
+    "core_vertices": 5,
+    "physical_edges": 6,
+    "logical_edges": 6,
+    "source_sha256": "39a25feba11dd9604142cf52be40206f0e12a479ee8b18b66e5a17ad3c1e277d"
+  },
+  {
+    "file": "KentmanJan2011.graphml",
+    "provider": "kentman",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 38,
+    "core_vertices": 3,
+    "physical_edges": 3,
+    "logical_edges": 3,
+    "source_sha256": "28e3e75cac9c3b9123e505bf3f4e2e18a58e0e7e6156f3d70d322e6088bc1dac"
+  },
+  {
+    "file": "KentmanJul2005.graphml",
+    "provider": "kentman",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 16,
+    "core_vertices": 8,
+    "physical_edges": 9,
+    "logical_edges": 9,
+    "source_sha256": "7a467abb8338d9840c9e35362bbea35cdf52dfc011055a6c63593cce0e29ddce"
+  },
+  {
+    "file": "Kreonet.graphml",
+    "provider": "kreonet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 13,
+    "core_vertices": 2,
+    "physical_edges": 1,
+    "logical_edges": 1,
+    "source_sha256": "9ca5ddf1bb83312e05c764eda20033a627bc5e2bf23fa60eeb4f23189c526258"
+  },
+  {
+    "file": "LambdaNet.graphml",
+    "provider": "lambdanet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 42,
+    "core_vertices": 35,
+    "physical_edges": 39,
+    "logical_edges": 39,
+    "source_sha256": "2ec7ce5fd09b23ea9d5886baf7ea643bb8baa8617fdfaa32b4ea5114dab24efd"
+  },
+  {
+    "file": "Latnet.graphml",
+    "provider": "latnet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 69,
+    "core_vertices": 7,
+    "physical_edges": 8,
+    "logical_edges": 8,
+    "source_sha256": "1f06c79c900d8fc50bd9043af96e4b6c3bb15a3ff73c2a0a3eb80a8c0c7c71fc"
+  },
+  {
+    "file": "Layer42.graphml",
+    "provider": "layer42",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 6,
+    "core_vertices": 4,
+    "physical_edges": 5,
+    "logical_edges": 5,
+    "source_sha256": "35ade36c7144fc057ab5d5f542fc068f6383b5dad952f487a20f42cc3805a294"
+  },
+  {
+    "file": "Litnet.graphml",
+    "provider": "litnet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 43,
+    "core_vertices": 5,
+    "physical_edges": 5,
+    "logical_edges": 5,
+    "source_sha256": "459cefa8a9873813fd575065d3fb67b3c5cba1f3282a8d86f8a05cad575de9b1"
+  },
+  {
+    "file": "Marnet.graphml",
+    "provider": "marnet",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 20,
+    "core_vertices": 10,
+    "physical_edges": 17,
+    "logical_edges": 17,
+    "source_sha256": "d361b6c48d90224d058f0aaffe5146673b56b937eb6f4c1f0e73386218ad04d8"
+  },
+  {
+    "file": "Marwan.graphml",
+    "provider": "marwan",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 16,
+    "core_vertices": 8,
+    "physical_edges": 10,
+    "logical_edges": 9,
+    "source_sha256": "850b9e64ba162b0f4953660dae326cae7f1b072c6901e34df9c5b018249e7c52"
+  },
+  {
+    "file": "Missouri.graphml",
+    "provider": "missouri network alliance",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 67,
+    "core_vertices": 58,
+    "physical_edges": 74,
+    "logical_edges": 74,
+    "source_sha256": "f6436093d7025cdc42d797251ec99927949d490a51a4dfb847d79dab316eefe7"
+  },
+  {
+    "file": "Mren.graphml",
+    "provider": "mren",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 6,
+    "core_vertices": 2,
+    "physical_edges": 1,
+    "logical_edges": 1,
+    "source_sha256": "18ef13b0c060ceff63862bab8f7b786f2a510324085a0d48e83e554f1172a865"
+  },
+  {
+    "file": "Myren.graphml",
+    "provider": "myren",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 37,
+    "core_vertices": 5,
+    "physical_edges": 7,
+    "logical_edges": 7,
+    "source_sha256": "3bf3a6298ea8e7c1f20ec64b18dc1d40d954b03ea5efa2a57b803ffc43572e6e"
+  },
+  {
+    "file": "Napnet.graphml",
+    "provider": "napnet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 6,
+    "core_vertices": 4,
+    "physical_edges": 5,
+    "logical_edges": 5,
+    "source_sha256": "d6da51980b05b9b3492326c9d8c566c513f641be9318e81f5120523285eeef37"
+  },
+  {
+    "file": "Navigata.graphml",
+    "provider": "navigata",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 13,
+    "core_vertices": 7,
+    "physical_edges": 11,
+    "logical_edges": 11,
+    "source_sha256": "a6d0a5f7a8cdd5143683d764b4d316790f243957dd3401beaebdafaf02070426"
+  },
+  {
+    "file": "Netrail.graphml",
+    "provider": "netrail",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 7,
+    "core_vertices": 7,
+    "physical_edges": 10,
+    "logical_edges": 10,
+    "source_sha256": "dbd37bc3c229eb445e196e0d95a4474a2b0cf58b6ff144eb0ab61cee3deeceef"
+  },
+  {
+    "file": "NetworkUsa.graphml",
+    "provider": "network usa",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND"
+    ],
+    "source_vertices": 35,
+    "core_vertices": 29,
+    "physical_edges": 32,
+    "logical_edges": 32,
+    "source_sha256": "5024b6c6daae97917fac17145630ca053d36f85abf4854b935ae789df6f8ca89"
+  },
+  {
+    "file": "Nextgen.graphml",
+    "provider": "nextgen",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 17,
+    "core_vertices": 12,
+    "physical_edges": 13,
+    "logical_edges": 13,
+    "source_sha256": "9258c9262d35d6078907c783f09b603c10b2f085500ceaf2a7cba4f95d76c0a7"
+  },
+  {
+    "file": "Niif.graphml",
+    "provider": "niif",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 36,
+    "core_vertices": 14,
+    "physical_edges": 18,
+    "logical_edges": 18,
+    "source_sha256": "34ff42b64c87892248fd62659e88dbfb5ae23a8c45fb5c24a70353939005ec3c"
+  },
+  {
+    "file": "Noel.graphml",
+    "provider": "noel communications",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 19,
+    "core_vertices": 12,
+    "physical_edges": 17,
+    "logical_edges": 17,
+    "source_sha256": "d42e42a9e9c2e8e76c4ec26c455d0482fa521c77aef4df6793622921e3edc2ea"
+  },
+  {
+    "file": "Nordu.graphml",
+    "provider": "nordu",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 33,
+    "core_vertices": 13,
+    "physical_edges": 23,
+    "logical_edges": 22,
+    "source_sha256": "1b56b5f5bd2da29f57260ff6a1d43780fda6a3062678cdedca240be336c78343"
+  },
+  {
+    "file": "Nordu1989.graphml",
+    "provider": "nordu",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 7,
+    "core_vertices": 2,
+    "physical_edges": 1,
+    "logical_edges": 1,
+    "source_sha256": "2c0c05675cd661e5aa56de1ae1d97e3c5503a3e4971d32935a3d4e300b4a4763"
+  },
+  {
+    "file": "Nordu1997.graphml",
+    "provider": "nordu",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 14,
+    "core_vertices": 2,
+    "physical_edges": 1,
+    "logical_edges": 1,
+    "source_sha256": "d0e5d866b1560b94bdfc0234d031c93df4b9bccd6562cf25a3fbc9bce7706955"
+  },
+  {
+    "file": "Nordu2005.graphml",
+    "provider": "nordu",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 9,
+    "core_vertices": 3,
+    "physical_edges": 3,
+    "logical_edges": 3,
+    "source_sha256": "ce90ee0cd8963ae7df98216a052e9d32d535dc1f9d088280d657f6df37c8f6d5"
+  },
+  {
+    "file": "Nordu2010.graphml",
+    "provider": "nordu",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 18,
+    "core_vertices": 3,
+    "physical_edges": 3,
+    "logical_edges": 3,
+    "source_sha256": "97c648bbf9736eff99533e84dcb141375bad40a795439ecf7018d39bf2c1306e"
+  },
+  {
+    "file": "Nsfcnet.graphml",
+    "provider": "nsfcnet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 10,
+    "core_vertices": 4,
+    "physical_edges": 4,
+    "logical_edges": 4,
+    "source_sha256": "78648b13f462fba89a27017f14bcf694fcac8bb0895ce587f0b2d27002651cbc"
+  },
+  {
+    "file": "Nsfnet.graphml",
+    "provider": "nsf",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 13,
+    "core_vertices": 10,
+    "physical_edges": 12,
+    "logical_edges": 12,
+    "source_sha256": "6519ef6b77e683fdc516a4b517f8b26987e9e18fa3cd556ebe90ab51d890545a"
+  },
+  {
+    "file": "Ntelos.graphml",
+    "provider": "ntelos",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 48,
+    "core_vertices": 31,
+    "physical_edges": 41,
+    "logical_edges": 40,
+    "source_sha256": "06006b1ed3276c9d07ae48e04e2f3c714caa70f38e1f949ee0601beccee403fc"
+  },
+  {
+    "file": "Ntt.graphml",
+    "provider": "ntt",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 47,
+    "core_vertices": 25,
+    "physical_edges": 203,
+    "logical_edges": 56,
+    "source_sha256": "a554409d6e0acc8fbff0cb8a8d7cd3687544a11f5cd8744af168224383a56fca"
+  },
+  {
+    "file": "Opteglobe.graphml",
+    "provider": "oteglobe",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 93,
+    "core_vertices": 54,
+    "physical_edges": 71,
+    "logical_edges": 68,
+    "source_sha256": "b74d2d78330cbd1c03d3f21b502becc520669f97f7449369a61ea4b2ef3fa531"
+  },
+  {
+    "file": "Oteglobe.graphml",
+    "provider": "oteglobe",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 93,
+    "core_vertices": 54,
+    "physical_edges": 71,
+    "logical_edges": 68,
+    "source_sha256": "f20f6211feaeb4df43f9c2bc222893a9cf11e8def23b6e39b862e37064d5b2b8"
+  },
+  {
+    "file": "Oxford.graphml",
+    "provider": "oxford",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 20,
+    "core_vertices": 11,
+    "physical_edges": 12,
+    "logical_edges": 12,
+    "source_sha256": "56a54d6b32c6d71740caa4c389a5621e39da2ad4a95a7d863899281d1d104ac3"
+  },
+  {
+    "file": "Pacificwave.graphml",
+    "provider": "pacific-wave",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 18,
+    "core_vertices": 4,
+    "physical_edges": 5,
+    "logical_edges": 5,
+    "source_sha256": "1e10727a37dbd8e09134289de4523c9fae1c94d12da52a93b349e10ed21a3811"
+  },
+  {
+    "file": "Packetexchange.graphml",
+    "provider": "packet exchange",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 21,
+    "core_vertices": 14,
+    "physical_edges": 18,
+    "logical_edges": 18,
+    "source_sha256": "05a106afd635a0d1311554f090c27aac0ada4ea45aecdb2c9162da5fd18ca9d3"
+  },
+  {
+    "file": "Padi.graphml",
+    "provider": "padi2",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 15,
+    "core_vertices": 2,
+    "physical_edges": 1,
+    "logical_edges": 1,
+    "source_sha256": "dfbda2a24560559d7ccfed09e06c4dfbaea1d02e35a44e64c20780262090cb27"
+  },
+  {
+    "file": "Palmetto.graphml",
+    "provider": "palmettonet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 45,
+    "core_vertices": 38,
+    "physical_edges": 58,
+    "logical_edges": 56,
+    "source_sha256": "a193037207e636cc12cde2948d2d3105a098d7c92795094c59bf52048d86b0d4"
+  },
+  {
+    "file": "Peer1.graphml",
+    "provider": "peer1",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 16,
+    "core_vertices": 12,
+    "physical_edges": 16,
+    "logical_edges": 16,
+    "source_sha256": "775de6c3c1b84b33debcb99f4e951494ca800a598708f60938cca4042395dbfb"
+  },
+  {
+    "file": "Pern.graphml",
+    "provider": "pern",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 127,
+    "core_vertices": 9,
+    "physical_edges": 11,
+    "logical_edges": 11,
+    "source_sha256": "b63fa75e666117e8465a2f62bc1017ba15348b65b08485e8c27d886aba2f2977"
+  },
+  {
+    "file": "PionierL1.graphml",
+    "provider": "pionier",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 36,
+    "core_vertices": 29,
+    "physical_edges": 34,
+    "logical_edges": 34,
+    "source_sha256": "02666ed0e1a58611959136dd64508fac721030d1a9796b5b5261df32f90033c5"
+  },
+  {
+    "file": "PionierL3.graphml",
+    "provider": "pionier",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 38,
+    "core_vertices": 28,
+    "physical_edges": 42,
+    "logical_edges": 35,
+    "source_sha256": "60465fbd9fcb952e54879d1fc074e443c4dcbb6274fa6208e7de11e05ec9ebad"
+  },
+  {
+    "file": "Psinet.graphml",
+    "provider": "psinet",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 24,
+    "core_vertices": 15,
+    "physical_edges": 16,
+    "logical_edges": 16,
+    "source_sha256": "7a4b69cc09ee15ae8f8882a5e62663c1b413f248bc7e8d47c4f5cba485fe2fca"
+  },
+  {
+    "file": "Psnc.graphml",
+    "provider": "psnc",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 36,
+    "core_vertices": 29,
+    "physical_edges": 34,
+    "logical_edges": 34,
+    "source_sha256": "8b0f5b7df787346acc9c5b5627579125612479d9c05ff58f8b19004dd95c3281"
+  },
+  {
+    "file": "Quest.graphml",
+    "provider": "quest",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 20,
+    "core_vertices": 19,
+    "physical_edges": 30,
+    "logical_edges": 30,
+    "source_sha256": "9ef1851df87bcf2b48647c8968c5ba6fb09fdacfd6c8164cfa6b7f64257b8981"
+  },
+  {
+    "file": "RedBestel.graphml",
+    "provider": "bestel",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 84,
+    "core_vertices": 38,
+    "physical_edges": 49,
+    "logical_edges": 44,
+    "source_sha256": "aa5f33498b760818a0bf6ec8bc3b03cf95fae9ce5516b818bc9296a6054c7361"
+  },
+  {
+    "file": "Rediris.graphml",
+    "provider": "rediris",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 19,
+    "core_vertices": 18,
+    "physical_edges": 31,
+    "logical_edges": 30,
+    "source_sha256": "85480ba5df04496d5c23b41a8dc7fd8f887db76da5dcaf81fddd6a934c7e04e1"
+  },
+  {
+    "file": "Renam.graphml",
+    "provider": "renam",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 5,
+    "core_vertices": 2,
+    "physical_edges": 1,
+    "logical_edges": 1,
+    "source_sha256": "1d6c71e38bfdd32ee9b9319b5ebf6316b43e1420acc45e9ed1f3b2ceaea5962a"
+  },
+  {
+    "file": "Renater1999.graphml",
+    "provider": "renater",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 24,
+    "core_vertices": 2,
+    "physical_edges": 1,
+    "logical_edges": 1,
+    "source_sha256": "d854ba493d093e4027cab8d0e7b132e8e2e1f6d069065eebac15daa4c8591406"
+  },
+  {
+    "file": "Renater2001.graphml",
+    "provider": "renater",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 24,
+    "core_vertices": 12,
+    "physical_edges": 15,
+    "logical_edges": 15,
+    "source_sha256": "a9db685c8c09911e036981b6ec7f97fdbbdee71d587afa5b23991146f1ba3d9b"
+  },
+  {
+    "file": "Renater2004.graphml",
+    "provider": "renater",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 30,
+    "core_vertices": 19,
+    "physical_edges": 25,
+    "logical_edges": 25,
+    "source_sha256": "7b8a7633268f14f7813422eb92827c3546ee8a96fe6f3bc06fc34ccd57bb4646"
+  },
+  {
+    "file": "Renater2006.graphml",
+    "provider": "renater",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 33,
+    "core_vertices": 25,
+    "physical_edges": 34,
+    "logical_edges": 34,
+    "source_sha256": "d11c880d10814a5d908cade97a34e715a14f318819533ee2f89ad6b430f90cd0"
+  },
+  {
+    "file": "Renater2008.graphml",
+    "provider": "renater",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 33,
+    "core_vertices": 25,
+    "physical_edges": 34,
+    "logical_edges": 34,
+    "source_sha256": "db9fc73a91082a525c24eb14aab0c856d1bb99aaf52be847a7990692f9e5e926"
+  },
+  {
+    "file": "Renater2010.graphml",
+    "provider": "renater",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 43,
+    "core_vertices": 36,
+    "physical_edges": 48,
+    "logical_edges": 48,
+    "source_sha256": "f330ff073c427f5457344d59e7ab4b32800b549966c37a9768737728696d750c"
+  },
+  {
+    "file": "Restena.graphml",
+    "provider": "restena",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 19,
+    "core_vertices": 10,
+    "physical_edges": 12,
+    "logical_edges": 12,
+    "source_sha256": "6ca17008750e61facecc0aad2d4353463a50a3aecda8ba09c2969b6a10fc6efa"
+  },
+  {
+    "file": "Reuna.graphml",
+    "provider": "reuna",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 37,
+    "core_vertices": 2,
+    "physical_edges": 1,
+    "logical_edges": 1,
+    "source_sha256": "50cd3f3dcfc461c4e7418d4791a3f3278c3bb4e4de97329bfd2ab46b3c10bdea"
+  },
+  {
+    "file": "Rhnet.graphml",
+    "provider": "rhnet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 16,
+    "core_vertices": 9,
+    "physical_edges": 10,
+    "logical_edges": 10,
+    "source_sha256": "97a1a3ee9a543f344235c82a0adffee262ddbd92d8efc6f3538a45c660d8b859"
+  },
+  {
+    "file": "Rnp.graphml",
+    "provider": "rnp",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 31,
+    "core_vertices": 8,
+    "physical_edges": 8,
+    "logical_edges": 8,
+    "source_sha256": "b6f47ed49588dd93090f818ed641621aee884cb04ea99d0a6687630af68605a9"
+  },
+  {
+    "file": "Roedunet.graphml",
+    "provider": "roedunet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND"
+    ],
+    "source_vertices": 42,
+    "core_vertices": 7,
+    "physical_edges": 14,
+    "logical_edges": 11,
+    "source_sha256": "d370abc08bca1f3a9d559e24429607600e3ee0e72ac624673d17982efc609e2a"
+  },
+  {
+    "file": "RoedunetFibre.graphml",
+    "provider": "roedunet",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 48,
+    "core_vertices": 23,
+    "physical_edges": 27,
+    "logical_edges": 27,
+    "source_sha256": "ec028bae43dbf2e99ff8010da434038dd2a2261621e1661a70fe0fc4b0bd3173"
+  },
+  {
+    "file": "Sago.graphml",
+    "provider": "sago",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 18,
+    "core_vertices": 2,
+    "physical_edges": 1,
+    "logical_edges": 1,
+    "source_sha256": "47c036b8d62b990965fbd9e8f52947d5a5c806db73cafdaf0fca67f92d5c87d4"
+  },
+  {
+    "file": "Sanet.graphml",
+    "provider": "sanet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND"
+    ],
+    "source_vertices": 43,
+    "core_vertices": 25,
+    "physical_edges": 27,
+    "logical_edges": 27,
+    "source_sha256": "39956b8f7487de4bbf469effe2f810af81dcd17615f7fbbdd2980ad9e2e46f49"
+  },
+  {
+    "file": "Sanren.graphml",
+    "provider": "sanren",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 7,
+    "core_vertices": 7,
+    "physical_edges": 7,
+    "logical_edges": 7,
+    "source_sha256": "0067237303ba6f0f502db993e733388f4e491502babc425a36865a693014ccbd"
+  },
+  {
+    "file": "Savvis.graphml",
+    "provider": "savvis",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 19,
+    "core_vertices": 17,
+    "physical_edges": 18,
+    "logical_edges": 18,
+    "source_sha256": "90d6e584cf87f6ea0b467bf2fbd30a317c64ae6e63c87ba5c6a28ba682c5b0b7"
+  },
+  {
+    "file": "Shentel.graphml",
+    "provider": "shentel",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 28,
+    "core_vertices": 20,
+    "physical_edges": 27,
+    "logical_edges": 27,
+    "source_sha256": "19e7eb48738db2609f26a3658368cc16d7919fe7fdeb05fbd70353bf1090f0c2"
+  },
+  {
+    "file": "Sinet.graphml",
+    "provider": "sinet",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 74,
+    "core_vertices": 12,
+    "physical_edges": 14,
+    "logical_edges": 14,
+    "source_sha256": "d6ea4006b3c895ca4b139d5d40b21e5fc1f3c8b7c789db80d7542565d9632819"
+  },
+  {
+    "file": "Singaren.graphml",
+    "provider": "singaren",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 11,
+    "core_vertices": 2,
+    "physical_edges": 1,
+    "logical_edges": 1,
+    "source_sha256": "d7b7aad6d8356b3feffa0bb6f780931d5b673449b8fea2e6f168f7b4c6dd948e"
+  },
+  {
+    "file": "Spiralight.graphml",
+    "provider": "spiralight",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 15,
+    "core_vertices": 10,
+    "physical_edges": 10,
+    "logical_edges": 10,
+    "source_sha256": "4627d97c5084e96d2654e804fb03972cde248c90565e66b91f007d2839f79a88"
+  },
+  {
+    "file": "Sprint.graphml",
+    "provider": "sprint",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 11,
+    "core_vertices": 10,
+    "physical_edges": 17,
+    "logical_edges": 17,
+    "source_sha256": "0aad2938a806575b9f4f6efea8278d54e0156131ba0a4a2bdf767644e65f4904"
+  },
+  {
+    "file": "Sunet.graphml",
+    "provider": "optosunet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 26,
+    "core_vertices": 20,
+    "physical_edges": 38,
+    "logical_edges": 24,
+    "source_sha256": "0d307829244263c80e0e001218663675dcd3765a15871ef336d825ac219dccde"
+  },
+  {
+    "file": "Surfnet.graphml",
+    "provider": "surfnet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 50,
+    "core_vertices": 42,
+    "physical_edges": 62,
+    "logical_edges": 59,
+    "source_sha256": "b14dffb47ea02d3f029329cc65fd3e410da50c5e83b8a004b3b487a28b5bd362"
+  },
+  {
+    "file": "Switch.graphml",
+    "provider": "switch",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 74,
+    "core_vertices": 50,
+    "physical_edges": 67,
+    "logical_edges": 67,
+    "source_sha256": "8d22773496de9f46e52ecfe1f391ab65cea87f5da763d58000030b5f6939de2c"
+  },
+  {
+    "file": "SwitchL3.graphml",
+    "provider": "switch",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 42,
+    "core_vertices": 27,
+    "physical_edges": 47,
+    "logical_edges": 47,
+    "source_sha256": "9c9998d53291b4ed9c91498a00de6b1578a6e075b2cac4af71b60dc9a50147d4"
+  },
+  {
+    "file": "Syringa.graphml",
+    "provider": "syringa networks",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 74,
+    "core_vertices": 35,
+    "physical_edges": 35,
+    "logical_edges": 35,
+    "source_sha256": "33b4ef87fa4c58c510c5877f6e9f349d73e0353bbf0b03fa3c79f5060784ebaa"
+  },
+  {
+    "file": "TLex.graphml",
+    "provider": "t-lex",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 12,
+    "core_vertices": 4,
+    "physical_edges": 7,
+    "logical_edges": 5,
+    "source_sha256": "ab185bf7b11a5f48e09f0c8feaa33e471e2cd6108dcf735cf7c9f515e7ce7c28"
+  },
+  {
+    "file": "TataNld.graphml",
+    "provider": "tata",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 145,
+    "core_vertices": 117,
+    "physical_edges": 159,
+    "logical_edges": 153,
+    "source_sha256": "aaa0f6c283ece2d2365afbcecd90fbd112d3e064b9fb420e94c07a0f80253ae2"
+  },
+  {
+    "file": "Telcove.graphml",
+    "provider": "tecove (level3)",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 73,
+    "core_vertices": 2,
+    "physical_edges": 1,
+    "logical_edges": 1,
+    "source_sha256": "9ec9d5a7bdcfdc7f3f8b41e36469861e123d583909ebdb98ed5a5e64b1e3561b"
+  },
+  {
+    "file": "Telecomserbia.graphml",
+    "provider": "telecomserbia",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 6,
+    "core_vertices": 6,
+    "physical_edges": 6,
+    "logical_edges": 6,
+    "source_sha256": "015c68698a124358c57a0ebfa9722ac264cab8d6a61dc0611e827ae26fc7860b"
+  },
+  {
+    "file": "Tinet.graphml",
+    "provider": "tinet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 53,
+    "core_vertices": 48,
+    "physical_edges": 84,
+    "logical_edges": 84,
+    "source_sha256": "98099bb670efacc9999add214223d70c0f087a56830c265aa863bb7f83401eeb"
+  },
+  {
+    "file": "Tw.graphml",
+    "provider": "tw telecom",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 76,
+    "core_vertices": 63,
+    "physical_edges": 109,
+    "logical_edges": 107,
+    "source_sha256": "bb66471474cd9f2451f28377002b089dc45ea110eebeb6e5f55ebafd560ac511"
+  },
+  {
+    "file": "Twaren.graphml",
+    "provider": "twaren",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 20,
+    "core_vertices": 4,
+    "physical_edges": 4,
+    "logical_edges": 4,
+    "source_sha256": "65d9380ae3a5d8c133cd6b1732081c6a600744900b1a19ba32d60972f2e02602"
+  },
+  {
+    "file": "Ulaknet.graphml",
+    "provider": "ulaknet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 82,
+    "core_vertices": 3,
+    "physical_edges": 3,
+    "logical_edges": 3,
+    "source_sha256": "299c71de26c1d94b1875703ac1a8e45f09f5a450f81b7a4c6d7e286d1478fcb6"
+  },
+  {
+    "file": "UniC.graphml",
+    "provider": "uni-c",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 25,
+    "core_vertices": 7,
+    "physical_edges": 7,
+    "logical_edges": 7,
+    "source_sha256": "7c0ca2f7dea1c976a49a4b3fb33812c40afdf513a4873bd3bff4e3d8ae316bba"
+  },
+  {
+    "file": "Uninet.graphml",
+    "provider": "uninet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND"
+    ],
+    "source_vertices": 13,
+    "core_vertices": 8,
+    "physical_edges": 16,
+    "logical_edges": 11,
+    "source_sha256": "3af71a0e7493bb8319abaa1e667cb8bdec1788343084f0e6308d7687fe5db16f"
+  },
+  {
+    "file": "Uninett.graphml",
+    "provider": "uninett",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 74,
+    "core_vertices": 56,
+    "physical_edges": 82,
+    "logical_edges": 82,
+    "source_sha256": "d89aaf6b519b6ce7b77d00eab6bd962a60185dc8306fb4bc3473944944534f20"
+  },
+  {
+    "file": "Uninett2010.graphml",
+    "provider": "uninett",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 74,
+    "core_vertices": 58,
+    "physical_edges": 85,
+    "logical_edges": 85,
+    "source_sha256": "2980ae10b975457a9fcd69d8ac6b07c18e1f7bcd4dc0f70d4ec1a0b2eb34565d"
+  },
+  {
+    "file": "Uninett2011.graphml",
+    "provider": "uninett",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 69,
+    "core_vertices": 57,
+    "physical_edges": 86,
+    "logical_edges": 84,
+    "source_sha256": "60bd1edc67a845b819876ef33fbbc5952a0ed54ff747843f91c68e89cfdfd4dc"
+  },
+  {
+    "file": "Uran.graphml",
+    "provider": "uran",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 24,
+    "core_vertices": 4,
+    "physical_edges": 4,
+    "logical_edges": 4,
+    "source_sha256": "031a77c4663baca45fd256754492889828115bd696ae0db44e4f8e71cdc4fed0"
+  },
+  {
+    "file": "UsCarrier.graphml",
+    "provider": "us carrier",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 158,
+    "core_vertices": 101,
+    "physical_edges": 126,
+    "logical_edges": 126,
+    "source_sha256": "8fbb72f0ee93a08f062a8be1844c393e232ca4e59185254694651a026b2254ee"
+  },
+  {
+    "file": "UsSignal.graphml",
+    "provider": "us signal",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 63,
+    "core_vertices": 52,
+    "physical_edges": 68,
+    "logical_edges": 67,
+    "source_sha256": "34cb79386575bbffe4ca98fba61eb404c74ebacad05bc585b5f54706b01d1545"
+  },
+  {
+    "file": "Uunet.graphml",
+    "provider": "uunet",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 49,
+    "core_vertices": 38,
+    "physical_edges": 73,
+    "logical_edges": 73,
+    "source_sha256": "1f5e024d8dc9f6d66ed62675d8e0007bb7c77c566a449d96b7d928f7b7d88a37"
+  },
+  {
+    "file": "Vinaren.graphml",
+    "provider": "vinaren",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 25,
+    "core_vertices": 3,
+    "physical_edges": 3,
+    "logical_edges": 3,
+    "source_sha256": "f6bdbdb4fd35581f9627bad829a01ce4dd7bdb11eee25b6bfef43b70a595153e"
+  },
+  {
+    "file": "VisionNet.graphml",
+    "provider": "vision net",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 24,
+    "core_vertices": 2,
+    "physical_edges": 1,
+    "logical_edges": 1,
+    "source_sha256": "bcfce098631706d6c89acd19db429f70cb8a06937a4aa918baf1facdc9ad5fdd"
+  },
+  {
+    "file": "VtlWavenet2008.graphml",
+    "provider": "viatel",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 88,
+    "core_vertices": 88,
+    "physical_edges": 92,
+    "logical_edges": 92,
+    "source_sha256": "108e330196255f626d3f7f05afb66733a55de417ef229c88db39d86e2cc9df64"
+  },
+  {
+    "file": "VtlWavenet2011.graphml",
+    "provider": "viatel",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 92,
+    "core_vertices": 88,
+    "physical_edges": 92,
+    "logical_edges": 92,
+    "source_sha256": "ef07669de1430cd3feacde1dd08606648e828bd82f499ae2582123ff06112d93"
+  },
+  {
+    "file": "WideJpn.graphml",
+    "provider": "wide",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 30,
+    "core_vertices": 8,
+    "physical_edges": 9,
+    "logical_edges": 9,
+    "source_sha256": "ed786186a19cd1f2a27db2c0480dc6b80e32e2e9028ab842f398108de19b38fc"
+  },
+  {
+    "file": "Xeex.graphml",
+    "provider": "xeex",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 24,
+    "core_vertices": 22,
+    "physical_edges": 32,
+    "logical_edges": 32,
+    "source_sha256": "58cef0ab5eac361b38e9c8db1b58914a7be9d428c3c07b40d41972e66a43fff0"
+  },
+  {
+    "file": "Xspedius.graphml",
+    "provider": "xspedius",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND"
+    ],
+    "source_vertices": 34,
+    "core_vertices": 33,
+    "physical_edges": 48,
+    "logical_edges": 48,
+    "source_sha256": "72dfe2dd02a41b854b144e30f306a3dab4e61a304d76396059b7a7a802748a1a"
+  },
+  {
+    "file": "York.graphml",
+    "provider": "yorkdataservices",
+    "status": "ELIGIBLE_NOT_SELECTED",
+    "reasons": [],
+    "source_vertices": 23,
+    "core_vertices": 20,
+    "physical_edges": 21,
+    "logical_edges": 21,
+    "source_sha256": "1e7425c7fc6c6fcda5a56e20e8b98226002e991151237cb6fbedf827591e7be9"
+  },
+  {
+    "file": "Zamren.graphml",
+    "provider": "zamren",
+    "status": "EXCLUDED",
+    "reasons": [
+      "CORE_VERTEX_BOUND",
+      "PHYSICAL_EDGE_BOUND",
+      "INSUFFICIENT_CYCLE_RANK"
+    ],
+    "source_vertices": 36,
+    "core_vertices": 2,
+    "physical_edges": 1,
+    "logical_edges": 1,
+    "source_sha256": "8f40029a6497154c89c3564135dc5eae96594b022fb0130dc0b5dde67c139117"
+  }
+]

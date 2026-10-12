@@ -1,0 +1,13 @@
+{
+  "schema_version": "research-example-0.1",
+  "model_id": "triangle_two_out_of_three",
+  "num_processors": 3,
+  "state_semantics": "state string x1x2x3; 1=working, 0=failed",
+  "vertices": ["A", "B", "C"],
+  "edges": [
+    {"id": "e12", "u": "A", "v": "B", "predicate": {"type": "var", "name": "x1"}},
+    {"id": "e23", "u": "B", "v": "C", "predicate": {"type": "var", "name": "x2"}},
+    {"id": "e31", "u": "C", "v": "A", "predicate": {"type": "var", "name": "x3"}}
+  ],
+  "note": "Design-reference input schema; Codex may migrate schema with a documented compatibility adapter. The independent oracle is sum(x)>=2."
+}

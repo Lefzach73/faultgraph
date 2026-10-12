@@ -1,0 +1,9 @@
+state_x1x2x3,operational,independent_reason
+000,0,at_least_two_of_three_edge_predicates_active
+001,0,at_least_two_of_three_edge_predicates_active
+010,0,at_least_two_of_three_edge_predicates_active
+011,1,at_least_two_of_three_edge_predicates_active
+100,0,at_least_two_of_three_edge_predicates_active
+101,1,at_least_two_of_three_edge_predicates_active
+110,1,at_least_two_of_three_edge_predicates_active
+111,1,at_least_two_of_three_edge_predicates_active

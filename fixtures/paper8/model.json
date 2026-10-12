@@ -1,0 +1,576 @@
+{
+  "edges": [
+    {
+      "id": "f1",
+      "predicate": {
+        "args": [
+          {
+            "index": 1,
+            "type": "var"
+          },
+          {
+            "args": [
+              {
+                "index": 2,
+                "type": "var"
+              },
+              {
+                "args": [
+                  {
+                    "args": [
+                      {
+                        "index": 3,
+                        "type": "var"
+                      },
+                      {
+                        "index": 4,
+                        "type": "var"
+                      }
+                    ],
+                    "type": "and"
+                  },
+                  {
+                    "args": [
+                      {
+                        "index": 6,
+                        "type": "var"
+                      },
+                      {
+                        "index": 7,
+                        "type": "var"
+                      }
+                    ],
+                    "type": "and"
+                  }
+                ],
+                "type": "or"
+              }
+            ],
+            "type": "and"
+          }
+        ],
+        "type": "or"
+      },
+      "u": "a",
+      "v": "b"
+    },
+    {
+      "id": "f2",
+      "predicate": {
+        "args": [
+          {
+            "args": [
+              {
+                "index": 2,
+                "type": "var"
+              },
+              {
+                "args": [
+                  {
+                    "index": 1,
+                    "type": "var"
+                  },
+                  {
+                    "arg": {
+                      "index": 6,
+                      "type": "var"
+                    },
+                    "type": "not"
+                  },
+                  {
+                    "arg": {
+                      "index": 7,
+                      "type": "var"
+                    },
+                    "type": "not"
+                  }
+                ],
+                "type": "or"
+              }
+            ],
+            "type": "and"
+          },
+          {
+            "args": [
+              {
+                "index": 3,
+                "type": "var"
+              },
+              {
+                "index": 4,
+                "type": "var"
+              },
+              {
+                "args": [
+                  {
+                    "index": 5,
+                    "type": "var"
+                  },
+                  {
+                    "args": [
+                      {
+                        "index": 6,
+                        "type": "var"
+                      },
+                      {
+                        "index": 7,
+                        "type": "var"
+                      }
+                    ],
+                    "type": "and"
+                  }
+                ],
+                "type": "or"
+              }
+            ],
+            "type": "and"
+          }
+        ],
+        "type": "or"
+      },
+      "u": "b",
+      "v": "g"
+    },
+    {
+      "id": "f3",
+      "predicate": {
+        "args": [
+          {
+            "index": 3,
+            "type": "var"
+          },
+          {
+            "args": [
+              {
+                "index": 4,
+                "type": "var"
+              },
+              {
+                "index": 6,
+                "type": "var"
+              },
+              {
+                "args": [
+                  {
+                    "index": 5,
+                    "type": "var"
+                  },
+                  {
+                    "index": 7,
+                    "type": "var"
+                  }
+                ],
+                "type": "or"
+              }
+            ],
+            "type": "and"
+          }
+        ],
+        "type": "or"
+      },
+      "u": "g",
+      "v": "d"
+    },
+    {
+      "id": "f4",
+      "predicate": {
+        "args": [
+          {
+            "args": [
+              {
+                "index": 4,
+                "type": "var"
+              },
+              {
+                "args": [
+                  {
+                    "args": [
+                      {
+                        "index": 1,
+                        "type": "var"
+                      },
+                      {
+                        "index": 2,
+                        "type": "var"
+                      },
+                      {
+                        "index": 3,
+                        "type": "var"
+                      }
+                    ],
+                    "type": "and"
+                  },
+                  {
+                    "arg": {
+                      "index": 6,
+                      "type": "var"
+                    },
+                    "type": "not"
+                  },
+                  {
+                    "arg": {
+                      "index": 7,
+                      "type": "var"
+                    },
+                    "type": "not"
+                  }
+                ],
+                "type": "or"
+              }
+            ],
+            "type": "and"
+          },
+          {
+            "args": [
+              {
+                "index": 5,
+                "type": "var"
+              },
+              {
+                "index": 6,
+                "type": "var"
+              },
+              {
+                "index": 7,
+                "type": "var"
+              },
+              {
+                "index": 8,
+                "type": "var"
+              }
+            ],
+            "type": "and"
+          }
+        ],
+        "type": "or"
+      },
+      "u": "d",
+      "v": "e"
+    },
+    {
+      "id": "f5",
+      "predicate": {
+        "args": [
+          {
+            "index": 5,
+            "type": "var"
+          },
+          {
+            "args": [
+              {
+                "index": 6,
+                "type": "var"
+              },
+              {
+                "index": 7,
+                "type": "var"
+              }
+            ],
+            "type": "and"
+          }
+        ],
+        "type": "or"
+      },
+      "u": "e",
+      "v": "z"
+    },
+    {
+      "id": "f6",
+      "predicate": {
+        "args": [
+          {
+            "args": [
+              {
+                "index": 1,
+                "type": "var"
+              },
+              {
+                "index": 7,
+                "type": "var"
+              },
+              {
+                "index": 8,
+                "type": "var"
+              }
+            ],
+            "type": "and"
+          },
+          {
+            "args": [
+              {
+                "index": 6,
+                "type": "var"
+              },
+              {
+                "args": [
+                  {
+                    "index": 5,
+                    "type": "var"
+                  },
+                  {
+                    "arg": {
+                      "index": 7,
+                      "type": "var"
+                    },
+                    "type": "not"
+                  },
+                  {
+                    "index": 8,
+                    "type": "var"
+                  }
+                ],
+                "type": "or"
+              }
+            ],
+            "type": "and"
+          }
+        ],
+        "type": "or"
+      },
+      "u": "z",
+      "v": "h"
+    },
+    {
+      "id": "f7",
+      "predicate": {
+        "args": [
+          {
+            "index": 7,
+            "type": "var"
+          },
+          {
+            "args": [
+              {
+                "index": 8,
+                "type": "var"
+              },
+              {
+                "args": [
+                  {
+                    "args": [
+                      {
+                        "index": 1,
+                        "type": "var"
+                      },
+                      {
+                        "index": 2,
+                        "type": "var"
+                      }
+                    ],
+                    "type": "and"
+                  },
+                  {
+                    "args": [
+                      {
+                        "index": 6,
+                        "type": "var"
+                      },
+                      {
+                        "index": 7,
+                        "type": "var"
+                      }
+                    ],
+                    "type": "and"
+                  }
+                ],
+                "type": "or"
+              }
+            ],
+            "type": "and"
+          }
+        ],
+        "type": "or"
+      },
+      "u": "h",
+      "v": "t"
+    },
+    {
+      "id": "f8",
+      "predicate": {
+        "args": [
+          {
+            "args": [
+              {
+                "index": 1,
+                "type": "var"
+              },
+              {
+                "index": 2,
+                "type": "var"
+              },
+              {
+                "index": 3,
+                "type": "var"
+              }
+            ],
+            "type": "and"
+          },
+          {
+            "args": [
+              {
+                "index": 6,
+                "type": "var"
+              },
+              {
+                "index": 7,
+                "type": "var"
+              }
+            ],
+            "type": "and"
+          },
+          {
+            "index": 8,
+            "type": "var"
+          }
+        ],
+        "type": "or"
+      },
+      "u": "t",
+      "v": "a"
+    },
+    {
+      "id": "f9",
+      "predicate": {
+        "args": [
+          {
+            "index": 4,
+            "type": "var"
+          },
+          {
+            "index": 5,
+            "type": "var"
+          },
+          {
+            "args": [
+              {
+                "arg": {
+                  "index": 6,
+                  "type": "var"
+                },
+                "type": "not"
+              },
+              {
+                "arg": {
+                  "index": 7,
+                  "type": "var"
+                },
+                "type": "not"
+              }
+            ],
+            "type": "or"
+          }
+        ],
+        "type": "and"
+      },
+      "u": "t",
+      "v": "g"
+    },
+    {
+      "id": "f10",
+      "predicate": {
+        "args": [
+          {
+            "index": 2,
+            "type": "var"
+          },
+          {
+            "index": 6,
+            "type": "var"
+          },
+          {
+            "index": 7,
+            "type": "var"
+          }
+        ],
+        "type": "and"
+      },
+      "u": "b",
+      "v": "d"
+    },
+    {
+      "id": "f11",
+      "predicate": {
+        "args": [
+          {
+            "index": 1,
+            "type": "var"
+          },
+          {
+            "index": 5,
+            "type": "var"
+          },
+          {
+            "index": 8,
+            "type": "var"
+          },
+          {
+            "args": [
+              {
+                "arg": {
+                  "index": 6,
+                  "type": "var"
+                },
+                "type": "not"
+              },
+              {
+                "arg": {
+                  "index": 7,
+                  "type": "var"
+                },
+                "type": "not"
+              }
+            ],
+            "type": "or"
+          }
+        ],
+        "type": "and"
+      },
+      "u": "t",
+      "v": "d"
+    },
+    {
+      "id": "f12",
+      "predicate": {
+        "args": [
+          {
+            "index": 1,
+            "type": "var"
+          },
+          {
+            "index": 3,
+            "type": "var"
+          },
+          {
+            "index": 6,
+            "type": "var"
+          },
+          {
+            "index": 7,
+            "type": "var"
+          }
+        ],
+        "type": "and"
+      },
+      "u": "a",
+      "v": "e"
+    }
+  ],
+  "metadata": {
+    "license": "CC-BY-4.0",
+    "source": "10.5815/ijem.2026.03.15",
+    "transcription": "AI-assisted, human reviewer pending"
+  },
+  "model_id": "K12",
+  "num_processors": 8,
+  "schema_version": "faultgraph-1",
+  "vertices": [
+    "a",
+    "b",
+    "g",
+    "d",
+    "e",
+    "z",
+    "h",
+    "t"
+  ]
+}

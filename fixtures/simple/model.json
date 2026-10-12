@@ -1,0 +1,43 @@
+{
+  "edges": [
+    {
+      "id": "e12",
+      "predicate": {
+        "index": 1,
+        "type": "var"
+      },
+      "u": "A",
+      "v": "B"
+    },
+    {
+      "id": "e23",
+      "predicate": {
+        "index": 2,
+        "type": "var"
+      },
+      "u": "B",
+      "v": "C"
+    },
+    {
+      "id": "e31",
+      "predicate": {
+        "index": 3,
+        "type": "var"
+      },
+      "u": "C",
+      "v": "A"
+    }
+  ],
+  "metadata": {
+    "imported_schema": "research-example-0.1",
+    "note": "Design-reference input schema; Codex may migrate schema with a documented compatibility adapter. The independent oracle is sum(x)>=2."
+  },
+  "model_id": "triangle_two_out_of_three",
+  "num_processors": 3,
+  "schema_version": "faultgraph-1",
+  "vertices": [
+    "A",
+    "B",
+    "C"
+  ]
+}

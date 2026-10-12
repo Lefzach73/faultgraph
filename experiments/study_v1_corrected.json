@@ -1,0 +1,38 @@
+{
+  "classification": "diagnostic exploratory study; no confirmatory novelty claim",
+  "common_cause_q": 0.1,
+  "correction": "Clamp numerical probability sums to [0,1] before diagnostic CI coverage; store raw timing samples. Cases, optimizer and all budgets unchanged.",
+  "dataset": "frozen_cases.json",
+  "dataset_license": "new generated synthetic data; public code/data license pending owner review",
+  "dataset_sha256": "4059e45bd8c298e6b13468214dd7f3c7fc80b58fab557cd88257eabdfca6e558",
+  "development_families": [
+    "threshold",
+    "line",
+    "conditional"
+  ],
+  "evaluation_samples": 128,
+  "excluded_family": "F06 paper-specific inter-subsystem construction pending verified mapping",
+  "frozen_at": "2026-10-12T03:40:40.175239+00:00",
+  "generator_sha256": "787654fd40138d7f35d892b625b5b07c9945280e2b4a4156ca3d6ebef966d5c5",
+  "heldout_families": [
+    "ring",
+    "exceptional",
+    "paired",
+    "corner"
+  ],
+  "mc_samples": 5000,
+  "operation_growth_bound": 0,
+  "optimizer_budget": 32,
+  "optimizer_predeclared": "local-v1 simplification plus zero-edge removal and unit-edge contraction; no oracle-guided synthesis",
+  "per_model_timeout_seconds": 30,
+  "predecessor_manifest_sha256": "2a4f9791e8757c19e0ce6e5f48f588a91f8c7553850bf81ceb98384e2a1c9e65",
+  "primary_statistical_repeats": null,
+  "reason": "pilot only; no inferential superiority testing",
+  "study_id": "study-v1-corrected",
+  "timing_repeats": 5,
+  "working_probability_grid": [
+    0.8,
+    0.9,
+    0.99
+  ]
+}

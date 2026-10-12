@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:faultgraph:gl-model:1",
+  "title": "FaultGraph GL model v1 (semantic validator additionally required)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "num_processors", "vertices", "edges"],
+  "properties": {
+    "schema_version": {"const": "faultgraph-1"},
+    "model_id": {"type": "string", "minLength": 1},
+    "num_processors": {"type": "integer", "minimum": 1, "maximum": 64},
+    "vertices": {"type": "array", "minItems": 1, "maxItems": 10000, "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "edges": {"type": "array", "maxItems": 50000, "items": {"$ref": "#/$defs/edge"}},
+    "metadata": {"type": "object"}
+  },
+  "$defs": {
+    "edge": {
+      "type": "object", "additionalProperties": false,
+      "required": ["id", "u", "v", "predicate"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "u": {"type": "string", "minLength": 1},
+        "v": {"type": "string", "minLength": 1},
+        "predicate": {"$ref": "#/$defs/expression"}
+      }
+    },
+    "expression": {
+      "oneOf": [
+        {"type": "object", "additionalProperties": false, "required": ["type", "value"], "properties": {"type": {"const": "const"}, "value": {"type": "boolean"}}},
+        {"type": "object", "additionalProperties": false, "required": ["type", "index"], "properties": {"type": {"const": "var"}, "index": {"type": "integer", "minimum": 1, "maximum": 64}}},
+        {"type": "object", "additionalProperties": false, "required": ["type", "arg"], "properties": {"type": {"const": "not"}, "arg": {"$ref": "#/$defs/expression"}}},
+        {"type": "object", "additionalProperties": false, "required": ["type", "args"], "properties": {"type": {"enum": ["and", "or"]}, "args": {"type": "array", "minItems": 2, "items": {"$ref": "#/$defs/expression"}}}}
+      ]
+    }
+  }
+}

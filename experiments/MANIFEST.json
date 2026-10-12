@@ -1,0 +1,22 @@
+{
+  "studies": [
+    {
+      "manifest": "study_v1.json",
+      "sha256": "2a4f9791e8757c19e0ce6e5f48f588a91f8c7553850bf81ceb98384e2a1c9e65",
+      "immutable": true
+    },
+    {
+      "manifest": "study_v1_corrected.json",
+      "sha256": "edbd1ec6602f373307f86b2f8e8a837950106a730afa6a6419704fc0a26e1e93",
+      "immutable": true
+    },
+    {
+      "manifest": "native_validation.json",
+      "sha256": "a5107cedf31c117e68ac7a347674d1e45fcfcf6b4df95c331cd02bc601c0cb0c",
+      "immutable": true
+    }
+  ],
+  "source_license_manifest": "../artifacts/sources/manifest.json",
+  "runtime_dependencies": [],
+  "lock_sha256": "d341cdebb34332872884140bdb602e1090da3b1b4a2347af6c6e3fa441dcab16"
+}

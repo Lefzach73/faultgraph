@@ -1,0 +1,12 @@
+{
+  "analysis_complete": true,
+  "arm_runs": 540,
+  "cases": 90,
+  "evidence_errors": [],
+  "exact_symbolic_certificates": 540,
+  "exhaustive_state_comparisons": 0,
+  "failures": 0,
+  "sampled_state_checks": 277560,
+  "seconds": 251.94065925013274,
+  "status": "COMPLETE"
+}

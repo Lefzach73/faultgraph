@@ -1,0 +1,10 @@
+{
+  "arm_runs": 720,
+  "cases": 90,
+  "exact_symbolic_certificates": 680,
+  "exhaustive_state_comparisons": 163840,
+  "failures": 40,
+  "sampled_state_checks": 328960,
+  "seconds": 375.94322787504643,
+  "status": "INCOMPLETE"
+}

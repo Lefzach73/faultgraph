@@ -1,0 +1,611 @@
+{
+  "schema_version": "faultgraph-conditioned-1",
+  "selectors": [
+    {
+      "type": "and",
+      "args": [
+        {
+          "type": "var",
+          "index": 6
+        },
+        {
+          "type": "var",
+          "index": 7
+        }
+      ]
+    },
+    {
+      "type": "not",
+      "arg": {
+        "type": "and",
+        "args": [
+          {
+            "type": "var",
+            "index": 6
+          },
+          {
+            "type": "var",
+            "index": 7
+          }
+        ]
+      }
+    }
+  ],
+  "models": [
+    {
+      "schema_version": "faultgraph-1",
+      "model_id": "K1-prime",
+      "num_processors": 8,
+      "vertices": [
+        "a",
+        "b",
+        "g",
+        "d",
+        "e",
+        "z",
+        "h"
+      ],
+      "edges": [
+        {
+          "id": "f1",
+          "u": "a",
+          "v": "b",
+          "predicate": {
+            "type": "or",
+            "args": [
+              {
+                "type": "var",
+                "index": 1
+              },
+              {
+                "type": "var",
+                "index": 2
+              }
+            ]
+          }
+        },
+        {
+          "id": "f2",
+          "u": "b",
+          "v": "g",
+          "predicate": {
+            "type": "or",
+            "args": [
+              {
+                "type": "and",
+                "args": [
+                  {
+                    "type": "var",
+                    "index": 1
+                  },
+                  {
+                    "type": "var",
+                    "index": 2
+                  }
+                ]
+              },
+              {
+                "type": "and",
+                "args": [
+                  {
+                    "type": "var",
+                    "index": 3
+                  },
+                  {
+                    "type": "var",
+                    "index": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "f3",
+          "u": "g",
+          "v": "d",
+          "predicate": {
+            "type": "or",
+            "args": [
+              {
+                "type": "var",
+                "index": 3
+              },
+              {
+                "type": "var",
+                "index": 4
+              }
+            ]
+          }
+        },
+        {
+          "id": "f4",
+          "u": "d",
+          "v": "e",
+          "predicate": {
+            "type": "or",
+            "args": [
+              {
+                "type": "and",
+                "args": [
+                  {
+                    "type": "var",
+                    "index": 1
+                  },
+                  {
+                    "type": "var",
+                    "index": 2
+                  },
+                  {
+                    "type": "var",
+                    "index": 3
+                  },
+                  {
+                    "type": "var",
+                    "index": 4
+                  }
+                ]
+              },
+              {
+                "type": "and",
+                "args": [
+                  {
+                    "type": "var",
+                    "index": 5
+                  },
+                  {
+                    "type": "var",
+                    "index": 6
+                  },
+                  {
+                    "type": "var",
+                    "index": 7
+                  },
+                  {
+                    "type": "var",
+                    "index": 8
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "f5",
+          "u": "e",
+          "v": "z",
+          "predicate": {
+            "type": "or",
+            "args": [
+              {
+                "type": "var",
+                "index": 5
+              },
+              {
+                "type": "var",
+                "index": 6
+              }
+            ]
+          }
+        },
+        {
+          "id": "f6",
+          "u": "z",
+          "v": "h",
+          "predicate": {
+            "type": "or",
+            "args": [
+              {
+                "type": "and",
+                "args": [
+                  {
+                    "type": "var",
+                    "index": 5
+                  },
+                  {
+                    "type": "var",
+                    "index": 6
+                  }
+                ]
+              },
+              {
+                "type": "and",
+                "args": [
+                  {
+                    "type": "var",
+                    "index": 7
+                  },
+                  {
+                    "type": "var",
+                    "index": 8
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "f7",
+          "u": "h",
+          "v": "a",
+          "predicate": {
+            "type": "or",
+            "args": [
+              {
+                "type": "var",
+                "index": 7
+              },
+              {
+                "type": "var",
+                "index": 8
+              }
+            ]
+          }
+        },
+        {
+          "id": "f8",
+          "u": "a",
+          "v": "e",
+          "predicate": {
+            "type": "and",
+            "args": [
+              {
+                "type": "var",
+                "index": 1
+              },
+              {
+                "type": "var",
+                "index": 3
+              },
+              {
+                "type": "var",
+                "index": 6
+              },
+              {
+                "type": "var",
+                "index": 7
+              }
+            ]
+          }
+        },
+        {
+          "id": "f9",
+          "u": "b",
+          "v": "d",
+          "predicate": {
+            "type": "and",
+            "args": [
+              {
+                "type": "var",
+                "index": 2
+              },
+              {
+                "type": "var",
+                "index": 6
+              },
+              {
+                "type": "var",
+                "index": 7
+              }
+            ]
+          }
+        }
+      ],
+      "metadata": {
+        "source": "10.5815/ijem.2026.03.15",
+        "license": "CC-BY-4.0",
+        "transcription": "AI-assisted, human reviewer pending"
+      }
+    },
+    {
+      "schema_version": "faultgraph-1",
+      "model_id": "K2-prime",
+      "num_processors": 8,
+      "vertices": [
+        "a",
+        "b",
+        "g",
+        "d",
+        "e",
+        "z",
+        "h",
+        "t"
+      ],
+      "edges": [
+        {
+          "id": "f1",
+          "u": "a",
+          "v": "b",
+          "predicate": {
+            "type": "or",
+            "args": [
+              {
+                "type": "var",
+                "index": 1
+              },
+              {
+                "type": "and",
+                "args": [
+                  {
+                    "type": "var",
+                    "index": 2
+                  },
+                  {
+                    "type": "var",
+                    "index": 3
+                  },
+                  {
+                    "type": "var",
+                    "index": 4
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "f2",
+          "u": "b",
+          "v": "g",
+          "predicate": {
+            "type": "or",
+            "args": [
+              {
+                "type": "var",
+                "index": 2
+              },
+              {
+                "type": "and",
+                "args": [
+                  {
+                    "type": "var",
+                    "index": 3
+                  },
+                  {
+                    "type": "var",
+                    "index": 4
+                  },
+                  {
+                    "type": "var",
+                    "index": 5
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "f3",
+          "u": "g",
+          "v": "d",
+          "predicate": {
+            "type": "or",
+            "args": [
+              {
+                "type": "var",
+                "index": 3
+              },
+              {
+                "type": "and",
+                "args": [
+                  {
+                    "type": "var",
+                    "index": 4
+                  },
+                  {
+                    "type": "var",
+                    "index": 5
+                  },
+                  {
+                    "type": "var",
+                    "index": 6
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "f4",
+          "u": "d",
+          "v": "e",
+          "predicate": {
+            "type": "or",
+            "args": [
+              {
+                "type": "var",
+                "index": 4
+              },
+              {
+                "type": "and",
+                "args": [
+                  {
+                    "type": "var",
+                    "index": 5
+                  },
+                  {
+                    "type": "var",
+                    "index": 6
+                  },
+                  {
+                    "type": "var",
+                    "index": 7
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "f5",
+          "u": "e",
+          "v": "z",
+          "predicate": {
+            "type": "or",
+            "args": [
+              {
+                "type": "var",
+                "index": 5
+              },
+              {
+                "type": "and",
+                "args": [
+                  {
+                    "type": "var",
+                    "index": 6
+                  },
+                  {
+                    "type": "var",
+                    "index": 7
+                  },
+                  {
+                    "type": "var",
+                    "index": 8
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "f6",
+          "u": "z",
+          "v": "h",
+          "predicate": {
+            "type": "or",
+            "args": [
+              {
+                "type": "var",
+                "index": 6
+              },
+              {
+                "type": "and",
+                "args": [
+                  {
+                    "type": "var",
+                    "index": 7
+                  },
+                  {
+                    "type": "var",
+                    "index": 8
+                  },
+                  {
+                    "type": "var",
+                    "index": 1
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "f7",
+          "u": "h",
+          "v": "t",
+          "predicate": {
+            "type": "or",
+            "args": [
+              {
+                "type": "var",
+                "index": 7
+              },
+              {
+                "type": "and",
+                "args": [
+                  {
+                    "type": "var",
+                    "index": 8
+                  },
+                  {
+                    "type": "var",
+                    "index": 1
+                  },
+                  {
+                    "type": "var",
+                    "index": 2
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "f8",
+          "u": "t",
+          "v": "a",
+          "predicate": {
+            "type": "or",
+            "args": [
+              {
+                "type": "var",
+                "index": 8
+              },
+              {
+                "type": "and",
+                "args": [
+                  {
+                    "type": "var",
+                    "index": 1
+                  },
+                  {
+                    "type": "var",
+                    "index": 2
+                  },
+                  {
+                    "type": "var",
+                    "index": 3
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "id": "f9",
+          "u": "t",
+          "v": "g",
+          "predicate": {
+            "type": "and",
+            "args": [
+              {
+                "type": "var",
+                "index": 4
+              },
+              {
+                "type": "var",
+                "index": 5
+              }
+            ]
+          }
+        },
+        {
+          "id": "f10",
+          "u": "t",
+          "v": "d",
+          "predicate": {
+            "type": "and",
+            "args": [
+              {
+                "type": "var",
+                "index": 1
+              },
+              {
+                "type": "var",
+                "index": 5
+              },
+              {
+                "type": "var",
+                "index": 8
+              }
+            ]
+          }
+        }
+      ],
+      "metadata": {
+        "source": "10.5815/ijem.2026.03.15",
+        "license": "CC-BY-4.0",
+        "transcription": "AI-assisted, human reviewer pending"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "H_correctness": "FINITE_CHECKS_PASS",
+  "H_guard": "REFUTED_ON_FROZEN_SCOPE",
+  "passing_families": 0,
+  "required_families": 3,
+  "family_cluster_bootstrap_p50_ratio_95_percentile": [
+    0.875123332212361,
+    1.0300041643926907
+  ],
+  "uncertainty_limit": "six mechanism families; descriptive paired bootstrap, no universal or novelty claim",
+  "novelty": "UNESTABLISHED",
+  "external_human_review": "BLOCKED_NOT_PERFORMED"
+}

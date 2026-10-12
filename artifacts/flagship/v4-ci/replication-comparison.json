@@ -1,0 +1,66 @@
+{
+  "status": "MATCHED_FINITE_EVIDENCE",
+  "run_url": "https://github.com/Lefzach73/faultgraph-lab/actions/runs/38294342714",
+  "source_commit": "a7196baaebe4aca158ccad861ddb7bf435892d31",
+  "compared_records": 540,
+  "status_differences": 0,
+  "truth_hash_differences": 0,
+  "state_hash_differences": 0,
+  "source_model_hash_differences": 0,
+  "output_hash_differences": 0,
+  "local_hypothesis": {
+    "complete": true,
+    "descriptive_cluster_bootstrap_build_ratio_aig_95_percentile": [
+      0.2964898523288265,
+      0.40990821089265495
+    ],
+    "descriptive_cluster_bootstrap_build_ratio_direct_95_percentile": [
+      0.359972542453558,
+      0.49334590278235846
+    ],
+    "descriptive_cluster_bootstrap_p50_ratio_95_percentile": [
+      0.9730570837714134,
+      1.0007066584690665
+    ],
+    "descriptive_cluster_bootstrap_rss_ratio_95_percentile": [
+      0.998420505007406,
+      1.0011390893229775
+    ],
+    "evidence_errors": [],
+    "external_human_review": "NOT_PERFORMED",
+    "family_count": 6,
+    "novelty": "UNESTABLISHED",
+    "qualifying_families": 6,
+    "required": 3,
+    "scope": "six provider/core clusters with paired policy/seed medians; not a universal claim",
+    "status": "SUPPORTED_ON_FROZEN_SCOPE"
+  },
+  "linux_hypothesis": {
+    "complete": true,
+    "descriptive_cluster_bootstrap_build_ratio_aig_95_percentile": [
+      0.306041714420477,
+      0.40709468938802396
+    ],
+    "descriptive_cluster_bootstrap_build_ratio_direct_95_percentile": [
+      0.37322450439661115,
+      0.5080301575354917
+    ],
+    "descriptive_cluster_bootstrap_p50_ratio_95_percentile": [
+      0.9770137506079968,
+      1.0328495078756494
+    ],
+    "descriptive_cluster_bootstrap_rss_ratio_95_percentile": [
+      1.0,
+      1.0
+    ],
+    "evidence_errors": [],
+    "external_human_review": "NOT_PERFORMED",
+    "family_count": 6,
+    "novelty": "UNESTABLISHED",
+    "qualifying_families": 6,
+    "required": 3,
+    "scope": "six provider/core clusters with paired policy/seed medians; not a universal claim",
+    "status": "SUPPORTED_ON_FROZEN_SCOPE"
+  },
+  "archive_sha256": "98024c1ff4639676d7b529c24a9b6102337d11212cf89c8d4e09a1aea6f2c810"
+}

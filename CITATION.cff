@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "Cite the original coauthored research; this AI-assisted implementation remains under review."
+title: "FaultGraph Lab computational reproduction"
+version: 0.1.0
+type: software
+authors:
+  - name: "FaultGraph Lab implementation contributors (attribution review pending)"
+preferred-citation:
+  type: article
+  title: "A Generalized Method for Constructing Graph-Logical Models of Non-Basic Fault-Tolerant Multiprocessor Systems via Model Combination"
+  authors:
+    - family-names: Romankevich
+      given-names: Vitaliy
+    - family-names: Morozov
+      given-names: Kostiantyn
+    - family-names: Romankevich
+      given-names: Alexei
+    - family-names: Malezhyk
+      given-names: Petro
+    - family-names: Zacharioudakis
+      given-names: Lefteris
+  journal: "International Journal of Engineering and Manufacturing"
+  volume: 16
+  issue: 3
+  start: 254
+  end: 269
+  year: 2026
+  doi: 10.5815/ijem.2026.03.15

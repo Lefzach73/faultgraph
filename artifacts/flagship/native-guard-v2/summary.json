@@ -1,0 +1,21 @@
+{
+  "status": "COMPLETE",
+  "cases": 120,
+  "families": 6,
+  "arms": [
+    "published",
+    "naive",
+    "local",
+    "semantic-prune",
+    "greedy-global",
+    "greedy-cut",
+    "beam-cut",
+    "bdd"
+  ],
+  "arm_runs": 960,
+  "failures": 0,
+  "mismatches": 0,
+  "arm_state_comparisons": 1305600,
+  "seconds": 196.05108645791188,
+  "scope": "finite n<=12; cases/assignments are not independent system families"
+}

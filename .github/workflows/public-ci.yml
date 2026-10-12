@@ -1,0 +1,45 @@
+name: Public scientific validation
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  scientific:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97
+        with:
+          python-version: '3.12'
+      - name: Verify public content and scientific source identity
+        run: python scripts/verify_public_export.py
+      - name: Install actual pinned scientific dependencies
+        run: |
+          python -m pip install uv==0.11.8
+          uv venv --python 3.12 .venv
+          DD_FETCH=1 DD_CUDD=1 uv pip install --python .venv/bin/python -r research/v3/requirements.txt
+          .venv/bin/python -c 'import dd.cudd; import z3; print(z3.get_version_string())'
+      - name: Build pinned ABC
+        run: |
+          git clone https://github.com/berkeley-abc/abc.git work/v3/abc
+          git -C work/v3/abc checkout --detach 8b2a6fd05e7b0d922c07202d9af5e6bffe79a23d
+          make -C work/v3/abc -j2 ABC_USE_NO_READLINE=1
+      - name: Test all retained software behavior and six-arm development checks
+        run: |
+          .venv/bin/python -m ruff check src tests
+          .venv/bin/python -m ruff format --check src tests
+          PYTHONPATH=src .venv/bin/python -m pytest -q
+      - name: Reproduce published examples
+        run: |
+          PYTHONPATH=src .venv/bin/python -m faultgraph reproduce-paper --output work/public-paper8
+          PYTHONPATH=src .venv/bin/python -m faultgraph reproduce-donors --include-recipients --output work/public-donors
+      - name: Build and check an isolated core wheel
+        run: |
+          uv build --wheel --out-dir work/dist
+          uv venv --python 3.12 work/lite
+          uv pip install --python work/lite/bin/python --no-deps work/dist/faultgraph_lab-0.1.0-py3-none-any.whl
+          work/lite/bin/python -I -m faultgraph evaluate examples/triangle_2of3.model.json --state 110

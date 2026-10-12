@@ -1,0 +1,40 @@
+{
+  "at": "2026-10-12T18:24:51.978876+00:00",
+  "baseline_sha": "a692b8bd0e8c1d0283dfa0398084f23f6b6b2c60",
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 314159,
+  "cases": 90,
+  "cluster": "provider/core; seeds and policies paired, six clusters only",
+  "construction_seconds": 30,
+  "dataset_sha256": "e5d2aa773257e67ea563b35466c6b486fbda1e36b8030e2210b67945cefb537a",
+  "families": [
+    "Abvt",
+    "Aconet",
+    "Agis",
+    "Arnes",
+    "AsnetAm",
+    "Bandcon"
+  ],
+  "generator_sha256": "a307b6f8e4e8656a1fa3bf8a6f883d878ba11e0e9102b09ec86e2e51488a7714",
+  "plan_sha256": "bf6e46a14033c84de00369f94ce93090e79ad63f877806c9cd18c9d159c7b51c",
+  "policies": [
+    "single",
+    "dual",
+    "shared"
+  ],
+  "primary": ">=3/6 clusters: warm build<=0.80 of BOTH native-CUDD and AIG-CUDD; query<=1.10 and RSS<=1.10 of native-CUDD; every arm certified",
+  "repeats": 5,
+  "samples": 256,
+  "seeds": [
+    7013,
+    8011,
+    9001,
+    10007,
+    11003
+  ],
+  "selection_sha256": "7b6a981adef01bbe597e8ba378c48d947a6ce2d3630484f5cfcaa8be05b5d88e",
+  "study_id": "native-chain-v4",
+  "topology_revision": "51118849b99534f01010d885d66321433a7eef9e",
+  "verification_ms": 60000,
+  "worker_seconds": 180
+}

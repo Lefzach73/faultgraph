@@ -1,0 +1,27 @@
+{
+  "complete": true,
+  "descriptive_cluster_bootstrap_build_ratio_aig_95_percentile": [
+    0.2964898523288265,
+    0.40990821089265495
+  ],
+  "descriptive_cluster_bootstrap_build_ratio_direct_95_percentile": [
+    0.359972542453558,
+    0.49334590278235846
+  ],
+  "descriptive_cluster_bootstrap_p50_ratio_95_percentile": [
+    0.9730570837714134,
+    1.0007066584690665
+  ],
+  "descriptive_cluster_bootstrap_rss_ratio_95_percentile": [
+    0.998420505007406,
+    1.0011390893229775
+  ],
+  "evidence_errors": [],
+  "external_human_review": "NOT_PERFORMED",
+  "family_count": 6,
+  "novelty": "UNESTABLISHED",
+  "qualifying_families": 6,
+  "required": 3,
+  "scope": "six provider/core clusters with paired policy/seed medians; not a universal claim",
+  "status": "SUPPORTED_ON_FROZEN_SCOPE"
+}

@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "file": "IJEM-V16-N3-15.pdf",
+      "doi": "10.5815/ijem.2026.03.15",
+      "url": "https://www.mecs-press.org/ijem/ijem-v16-n3/IJEM-V16-N3-15.pdf",
+      "sha256": "52632e9e52f2dfc254eecf5015a38e75a5393383f54e985dcc2e6b278854377a",
+      "license": "CC BY 4.0",
+      "review": "full text read; relevant formulas visually checked; independent human review pending"
+    },
+    {
+      "file": "HAIT-2026-03.pdf",
+      "doi": "10.15276/hait.09.2026.03",
+      "url": "https://hait.od.ua/index.php/journal/article/download/233/203",
+      "sha256": "6921f596a2622ac41be1b80361eee765205541b8746615832c9d0f8808efc495",
+      "license": "CC BY 4.0",
+      "review": "full text read; relevant formulas visually checked; independent human review pending"
+    },
+    {
+      "file": "AAIT-2026-25.pdf",
+      "doi": "10.15276/aait.09.2026.25",
+      "url": "https://aait.od.ua/index.php/journal/article/download/265/220",
+      "sha256": "27c219f8a3468efc2d638228c9c30331e3c55dcf293dee19ea3c58eee40a9f66",
+      "license": "CC BY 4.0",
+      "review": "full text read; relevant formulas visually checked; independent human review pending"
+    }
+  ]
+}
